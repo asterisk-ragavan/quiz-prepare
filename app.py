@@ -85,4 +85,4 @@ def reset():
     return jsonify({'status': 'reset'})
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=False)
