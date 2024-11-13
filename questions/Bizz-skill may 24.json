@@ -1,0 +1,669 @@
+[
+    {
+        "question": "Which principle of persuasion is related to titles, tailors and tune?",
+        "options": [
+            "None of the options are correct",
+            "Consensus",
+            "Scarcity",
+            "Authority"
+        ],
+        "answer": [
+            "Authority"
+        ]
+    },
+    {
+        "question": "The 'vice technique' is a tactic of one of the following options. Identify the correct answer.",
+        "options": [
+            "Conflict Resolution",
+            "Negotiation",
+            "Persuasion",
+            "Storytelling"
+        ],
+        "answer": [
+            "Negotiation"
+        ]
+    },
+    {
+        "question": "What is the first step in problem-solving?",
+        "options": [
+            "Diagnosing the problem",
+            "Identifying possible solutions",
+            "Observing, evaluating and adjusting",
+            "Determining the root causes of the problem"
+        ],
+        "answer": [
+            "Diagnosing the problem"
+        ]
+    },
+    {
+        "question": "On his first day at work in the DIY Shop, Bill's manager asked him to sweep the aisles clean. In aisle three, a customer was examining two different decking products and asked which one Bill thinks is best. Persuaded by what he thinks is an expert, the customer walks away with 50 pieces of expensive decking. The above passage refers to which principle?",
+        "options": [
+            "Reciprocity",
+            "Authority (Persuaded by what he thinks is an expert)",
+            "Persuasion",
+            "Social Proof",
+            "Liking (I like the one in your right hand)",
+            "Consistency"
+        ],
+        "answer": [
+            "Authority (Persuaded by what he thinks is an expert)"
+        ]
+    },
+    {
+        "question": "Maki was part of a new project and felt overwhelmed by her tasks and responsibilities on the first day. What should Maki do to ease her anxiety and manage her time effectively?",
+        "options": [
+            "Take a break for 10 minutes, get back and calmly list down tasks on priority and start solving them.",
+            "Accept the tasks and try to delegate them to team members.",
+            "Seek help from a senior associate to complete her tasks.",
+            "Get prepared for such hectic pressure as a routine matter.",
+            "Talk to the manager and explain that she is very new to the team, and it is difficult for her to handle all these responsibilities."
+        ],
+        "answer": [
+            "Take a break for 10 minutes, get back and calmly list down tasks on priority and start solving them."
+        ]
+    },
+    {
+        "question": "Which of the following will you do while planning if you are working towards your personal growth? Select all that apply.",
+        "options": [
+            "Give 80% of your time to important and urgent tasks.",
+            "Learn to say no to less important tasks.",
+            "Discuss with the mentor about your personal growth.",
+            "Fill your calendar with the most important tasks.",
+            "Make time to do something new."
+        ],
+        "answer": [
+            "Give 80% of your time to important and urgent tasks.",
+            "Learn to say no to less important tasks.",
+            "Make time to do something new."
+        ]
+    },
+    {
+        "question": "Which of the following is NOT a feature of DevOps?",
+        "options": [
+            "It requires maximum downtime and minimal service backups.",
+            "Deployment needs less programming knowledge compared to development of other applications.",
+            "Teams need to communicate in order to proceed to the next step.",
+            "There are separate teams for operations and developments.",
+            "DevOps is a tool that is solely automation."
+        ],
+        "answer": [
+            "It requires maximum downtime and minimal service backups.",
+            "There are separate teams for operations and developments."
+        ]
+    },
+    {
+        "question": "What happens when there is trust between people? Select all that apply.",
+        "options": [
+            "Trust makes people comfortable in taking advantage of anyone.",
+            "Trust makes people feel eager to be part of a relationship or group that depends on each other.",
+            "People willingly contribute what is needed, not just by their presence, but also with talent, energy, and honest thoughts on how the relationship or group can grow.",
+            "People can share their confidential information with each other as well.",
+            "Trust doesn't make people comfortable in taking advantage of others."
+        ],
+        "answer": [
+            "Trust makes people feel eager to be part of a relationship or group that depends on each other.",
+            "People willingly contribute what is needed, not just by their presence, but also with talent, energy, and honest thoughts on how the relationship or group can grow.",
+            "Trust doesn't make people comfortable in taking advantage of others."
+        ]
+    },
+    {
+        "question": "The rule of reciprocity is a social norm in which a person feels obligated to return the favor if someone does something for them.",
+        "options": [
+            "True",
+            "False"
+        ],
+        "answer": [
+            "True"
+        ]
+    },
+    {
+        "question": "Which of the following is a suggested way to build good relationships with customers?",
+        "options": [
+            "When a customer complains, be defensive.",
+            "Place the company’s needs first.",
+            "Show care and concern for the customer.",
+            "Establish customer dissatisfaction goals."
+        ],
+        "answer": [
+            "Show care and concern for the customer."
+        ]
+    },
+    {
+        "question": "Identify the options that do not qualify as the feature of DevOps. Select all that apply.",
+        "options": [
+            "It requires maximum downtime and minimal service backups.",
+            "Deployment needs less programming knowledge compared to other development.",
+            "Teams need to communicate to proceed to the next step.",
+            "Separate teams for operations and developments.",
+            "DevOps is a tool that is solely for automation."
+        ],
+        "answer": [
+            "It requires maximum downtime and minimal service backups.",
+            "Separate teams for operations and developments."
+        ]
+    },
+    {
+        "question": "Name the title of the speech by Dr. Martin Luther King.",
+        "options": [
+            "I have a dream",
+            "The story of my family",
+            "The story of my friend’s life",
+            "The story of my life"
+        ],
+        "answer": [
+            "I have a dream"
+        ]
+    },
+    {
+        "question": "Which of the following would NOT influence your assessment of data, information or evidence?",
+        "options": [
+            "Assumptions",
+            "Conceptual Knowledge",
+            "Point of View",
+            "Implications"
+        ],
+        "answer": [
+            "Implications"
+        ]
+    },
+    {
+        "question": "How can team creativity be promoted?",
+        "options": [
+            "Relieve team members of accountability to promote creative ideas.",
+            "Establish challenges for the team.",
+            "Evaluate ideas during the idea generation stage.",
+            "Use stress and deadlines to encourage intensity and focus."
+        ],
+        "answer": [
+            "Establish challenges for the team."
+        ]
+    },
+    {
+        "question": "Which of the following are suggested techniques for overcoming time waste in the work environment? Select all that apply.",
+        "options": [
+            "Do the most important things later.",
+            "Be decisive and finish things.",
+            "Procrastinate.",
+            "Perform multitasking of most important and least important tasks.",
+            "Set a time limit for important tasks and projects."
+        ],
+        "answer": [
+            "Be decisive and finish things.",
+            "Set a time limit for important tasks and projects."
+        ]
+    },
+    {
+        "question": "The technique of negotiation in which we keep asking for small items, one at a time, until we reach agreement is called:",
+        "options": [
+            "Quivering Pen Technique",
+            "Vice Technique",
+            "Nibble Technique",
+            "Salami Technique"
+        ],
+        "answer": [
+            "Nibble Technique"
+        ]
+    },
+    {
+        "question": "Which acronym is related to GOAL setting?",
+        "options": [
+            "TED (Tell me, explain to me, describe to me)",
+            "KISS (Keep it simple, stupid)",
+            "SMART (Specific, measurable, attainable, realistic, time-bound)",
+            "WIIFM (What’s in it for me)"
+        ],
+        "answer": [
+            "SMART (Specific, measurable, attainable, realistic, time-bound)"
+        ]
+    },
+    {
+        "question": "Which of the following options apply to an Agile Mindset? Select all that apply.",
+        "options": [
+            "Stubbornness",
+            "Positive Mindset",
+            "Thirst for Knowledge",
+            "Hard thinking",
+            "Goal of team success",
+            "Willingness to fail"
+        ],
+        "answer": [
+            "Positive Mindset",
+            "Thirst for Knowledge",
+            "Goal of team success",
+            "Willingness to fail"
+        ]
+    },
+    {
+        "question": "To develop your creativity, you should: (Select all that apply)",
+        "options": [
+            "Allow pressure to produce immediate results",
+            "Be willing to take risks",
+            "Reward your curiosity",
+            "Commit yourself to developing your creativity",
+            "Stick to your comfort zone and avoid taking risks"
+        ],
+        "answer": [
+            "Be willing to take risks",
+            "Reward your curiosity",
+            "Commit yourself to developing your creativity"
+        ]
+    },
+    {
+        "question": "When working to resolve an issue and achieve a win-win solution to a conflict, which techniques are most effective?",
+        "options": [
+            "Compromise / Forcing",
+            "Competition / Forcing",
+            "Confrontation / Problem Solving",
+            "Forcing / Problem Solving",
+            "Competition / Confrontation"
+        ],
+        "answer": [
+            "Confrontation / Problem Solving"
+        ]
+    },
+    {
+        "question": "What are the elements of conversation?",
+        "options": [
+            "Plan, Prepare, Listen, Close & Clarify along the way",
+            "Think, Learn, Know, Say, Close and Clarify",
+            "Think, Know, Say, Close and Clarify",
+            "Plan, Prepare, Close & Clarify along the way"
+        ],
+        "answer": [
+            "Plan, Prepare, Listen, Close & Clarify along the way"
+        ]
+    },
+    {
+        "question": "Identify the barriers to problem-solving.",
+        "options": [
+            "Assumptions",
+            "Guided approach",
+            "Differentiating fact from opinion",
+            "Data-driven approach",
+            "Prejudice"
+        ],
+        "answer": [
+            "Assumptions",
+            "Prejudice"
+        ]
+    },
+    {
+        "question": "Choose the reasons that classify a problem as a complex problem.",
+        "options": [
+            "It is binary",
+            "It has high-level difficulty",
+            "It has a very simple way of solving",
+            "It has many components",
+            "It involves too many unknowns"
+        ],
+        "answer": [
+            "It has high-level difficulty",
+            "It has many components",
+            "It involves too many unknowns"
+        ]
+    },
+    {
+        "question": "Teams are effective for complex tasks because they produce a great number of ideas and commitment to the decisions.",
+        "options": [
+            "True",
+            "False"
+        ],
+        "answer": [
+            "True"
+        ]
+    },
+    {
+        "question": "Product is the center of the ___________.",
+        "options": [
+            "Project procedure model",
+            "Traditional and agile model",
+            "Traditional risk management model",
+            "Design thinking model"
+        ],
+        "answer": [
+            "Design thinking model"
+        ]
+    },
+    {
+        "question": "Select the options applicable to Agile Mindset.",
+        "options": [
+            "Stubbornness",
+            "Positive Mindset",
+            "Thirst for Knowledge",
+            "Hard thinking",
+            "Goal of team success",
+            "Willingness to fail"
+        ],
+        "answer": [
+            "Positive Mindset",
+            "Thirst for Knowledge",
+            "Goal of team success",
+            "Willingness to fail"
+        ]
+    },
+    {
+        "question": "To identify a problem one should ___________.",
+        "options": [
+            "Compare one set of standards or goals to a second set of standards or goals",
+            "Compare the current state of affairs with some standard or desired future expectations",
+            "Use intuition to see that things do not look right",
+            "Look for unhappy customers"
+        ],
+        "answer": [
+            "Compare the current state of affairs with some standard or desired future expectations"
+        ]
+    },
+    {
+        "question": "When resolving an incident, what kind of decision-making skills should the operations team (application and infrastructure) adopt in addition to business impact?",
+        "options": [
+            "Risk assessment",
+            "Fact-based quality",
+            "Time-bound decision",
+            "Monetary impact"
+        ],
+        "answer": [
+            "Risk assessment"
+        ]
+    },
+    {
+        "question": "Which technique of negotiation makes use of a 'divide and conquer' process of threats and alliances to overcome opposition?",
+        "options": [
+            "Quivering Pen Technique",
+            "Vice Technique",
+            "Nibble Technique",
+            "Salami Technique"
+        ],
+        "answer": [
+            "Salami Technique"
+        ]
+    },
+    {
+        "question": "Why is communication an important skill in problem-solving? Select all that apply.",
+        "options": [
+            "Communication generally hampers the troubleshooting process.",
+            "Communication enables us to articulate our solution.",
+            "It’s not important - Managers can do everything through email or texting.",
+            "We need to make others listen to us when we tell them what to do.",
+            "Communication is essential in order to gather information about the problem."
+        ],
+        "answer": [
+            "Communication enables us to articulate our solution.",
+            "Communication is essential in order to gather information about the problem."
+        ]
+    },
+    {
+        "question": "When an acquaintance of yours asks, “How is business?”, and you respond saying “stakes are up by 14% what about yours?”, what type of communication has taken place?",
+        "options": [
+            "None of the options are correct",
+            "Feeling",
+            "Opinion",
+            "Fact"
+        ],
+        "answer": [
+            "Fact"
+        ]
+    },
+    {
+        "question": "Which principle of persuasion is a social norm in which a person feels obligated to return the favor if someone does something for them?",
+        "options": [
+            "True",
+            "False"
+        ],
+        "answer": [
+            "True"
+        ]
+    },
+    {
+        "question": "What are the elements of conversation?",
+        "options": [
+            "Plan, Prepare, Listen, Close & Clarify along the way",
+            "Think, Learn, Know, Say, Close and Clarify",
+            "Think, Know, Say, Close and Clarify",
+            "Plan, Prepare, Close & Clarify along the way"
+        ],
+        "answer": [
+            "Plan, Prepare, Listen, Close & Clarify along the way"
+        ]
+    },
+    {
+        "question": "To develop your creativity you should: Select all that apply",
+        "options": [
+            "Allow pressure to produce immediate results",
+            "Be willing to take risks",
+            "Reward your curiosity",
+            "Commit yourself to developing your creativity",
+            "Stick to your comfort zone and don’t take new risks"
+        ],
+        "answer": [
+            "Be willing to take risks",
+            "Reward your curiosity",
+            "Commit yourself to developing your creativity"
+        ]
+    },
+    {
+        "question": "Identify the aspects that could be improved by cultivating a growth mindset. Select all that apply.",
+        "options": [
+            "Rewards and recognition",
+            "Performance and productivity",
+            "Performance and groupthink",
+            "Goal achievement and happiness",
+            "Connection and groupthink"
+        ],
+        "answer": [
+            "Performance and productivity",
+            "Goal achievement and happiness"
+        ]
+    },
+    {
+        "question": "Which technique of negotiation makes use of small items, one at a time, to get agreement for larger items?",
+        "options": [
+            "Quivering Pen Technique",
+            "Vice Technique",
+            "Nibble Technique",
+            "Salami Technique"
+        ],
+        "answer": [
+            "Nibble Technique"
+        ]
+    },
+    {
+        "question": "Teams are effective for complex tasks because they produce a great number of ideas and commitment to the decisions.",
+        "options": [
+            "True",
+            "False"
+        ],
+        "answer": [
+            "True"
+        ]
+    },
+    {
+        "question": "Which of the following are suggested ways of building good relationships with customers?",
+        "options": [
+            "When a customer complains, be defensive",
+            "Place the company’s needs first",
+            "Show care and concern for the customer",
+            "Establish customer dissatisfaction goals"
+        ],
+        "answer": [
+            "Show care and concern for the customer"
+        ]
+    },
+    {
+        "question": "Identify the steps you can take to identify stakeholders. Select all that apply.",
+        "options": [
+            "Observe and analyze",
+            "Communicate and observe",
+            "Analyze and communicate",
+            "Prioritize and communicate",
+            "Review who will own benefits and be affected by disbenefits"
+        ],
+        "answer": [
+            "Observe and analyze",
+            "Communicate and observe",
+            "Analyze and communicate",
+            "Prioritize and communicate"
+        ]
+    },
+    {
+        "question": "Charities that send you half a dozen greeting cards along with a request for a donation are using which compliance technique?",
+        "options": [
+            "Reciprocation",
+            "Authority",
+            "Scarcity",
+            "Liking"
+        ],
+        "answer": [
+            "Reciprocation"
+        ]
+    },
+    {
+        "question": "Understanding personality types helps to establish rapport and influence with others in a business setting. Which of the following are characteristics of the personality type called 'regulators'? Select all that apply.",
+        "options": [
+            "Regulators may not seek formalized approvals of their achievements.",
+            "The regulator's approach is logical and well-structured, and lacks emotions.",
+            "The first thing on the regulator's mind is how their ideas affect their staff.",
+            "The regulator is extremely patient and does not expect immediate action.",
+            "The pure regulator is assertive and reserved in outlook."
+        ],
+        "answer": [
+            "Regulators may not seek formalized approvals of their achievements.",
+            "The regulator's approach is logical and well-structured, and lacks emotions.",
+            "The pure regulator is assertive and reserved in outlook."
+        ]
+    },
+    {
+        "question": "Select the stages of successful ideation. Select all that apply.",
+        "options": [
+            "Implementation",
+            "Persuasion",
+            "Modification",
+            "Generation",
+            "Visualization",
+            "Collaboration",
+            "Selection"
+        ],
+        "answer": [
+            "Implementation",
+            "Generation",
+            "Visualization",
+            "Selection"
+        ]
+    },
+    {
+        "question": "Creativity is likely to occur when three components come together which involve expertise, creative thinking skills, and ___________.",
+        "options": [
+            "Proper lighting in the work environment",
+            "Extrinsically motivating conditions in the work environment",
+            "Right type of motivation",
+            "Stable economic conditions"
+        ],
+        "answer": [
+            "Right type of motivation"
+        ]
+    },
+    {
+        "question": "Linda and her close friend were involved in an unhealthy argument recently, which has caused a rift between the two. What should Linda do in this situation?",
+        "options": [
+            "Linda should ignore the issue and move on with her tasks.",
+            "Suppress her ego and invite her friend over for a cup of coffee or dinner.",
+            "Wait for her friend to make the first move.",
+            "Seek the help of a mutual friend to mediate."
+        ],
+        "answer": [
+            "Suppress her ego and invite her friend over for a cup of coffee or dinner."
+        ]
+    },
+    {
+        "question": "Some of the following are ways that can be used to improve your creativity, except a few. Identify the exceptions. Select all that apply.",
+        "options": [
+            "Discipline yourself to think laterally.",
+            "Embrace mistakes.",
+            "Conduct brainstorming sessions.",
+            "Concentrate intensely on the task at hand.",
+            "Stick to the traditional mental set."
+        ],
+        "answer": [
+            "Concentrate intensely on the task at hand.",
+            "Stick to the traditional mental set."
+        ]
+    },
+    {
+        "question": "Identify suggested techniques for overcoming time waste in the work environment. Select all that apply.",
+        "options": [
+            "Do the most important things later.",
+            "Be decisive and finish things.",
+            "Procrastinate",
+            "Perform multitasking of most important and least important tasks.",
+            "Set a time limit for important tasks and projects."
+        ],
+        "answer": [
+            "Be decisive and finish things.",
+            "Set a time limit for important tasks and projects."
+        ]
+    },
+    {
+        "question": "When negotiating, asking for something extra at the end, right before you make your agreement, is known as the ___________ technique.",
+        "options": [
+            "Quivering Pen Technique",
+            "Vice Technique",
+            "Nibble Technique",
+            "Salami Technique"
+        ],
+        "answer": [
+            "Salami Technique"
+        ]
+    },
+    {
+        "question": "Which of the following statements regarding delegation is false?",
+        "options": [
+            "Some supervisors with a strong need for ego fulfillment try to do all the work themselves to get personal credit.",
+            "All team members should be delegated all kinds of work with equal responsibility so they get empowered.",
+            "A careful explanation of the task to be accomplished is important in successful delegation.",
+            "Skillful delegating is bound to save time for a supervisor in the long run."
+        ],
+        "answer": [
+            "All team members should be delegated all kinds of work with equal responsibility so they get empowered."
+        ]
+    },
+    {
+        "question": "To identify a problem one should ___________.",
+        "options": [
+            "Compare one set of standards or goals to a second set of standard or goals",
+            "Compare the current state of affairs with some standard or desired future expectations.",
+            "Use intuition to see that things do not look right.",
+            "Look for unhappy customers."
+        ],
+        "answer": [
+            "Compare the current state of affairs with some standard or desired future expectations."
+        ]
+    },
+    {
+        "question": "What does teamwork mean?",
+        "options": [
+            "To work hard with others",
+            "To communicate well with others",
+            "To work well with others",
+            "To work using soft skills"
+        ],
+        "answer": [
+            "To work well with others"
+        ]
+    },
+    {
+        "question": "Select the options applicable to Agile Mindset.",
+        "options": [
+            "Stubbornness",
+            "Positive Mindset",
+            "Thirst for Knowledge",
+            "Hard thinking",
+            "Goal of team success",
+            "Willingness to fail"
+        ],
+        "answer": [
+            "Positive Mindset",
+            "Thirst for Knowledge",
+            "Goal of team success",
+            "Willingness to fail"
+        ]
+    }
+]

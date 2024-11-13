@@ -1,0 +1,1639 @@
+[
+    {
+        "question": "Which command is used to start a new Django project?",
+        "options": [
+            "django-admin startproject",
+            "django-admin startapp",
+            "python manage.py runserver",
+            "django startproject"
+        ],
+        "answer": [
+            "django-admin startproject"
+        ]
+    },
+    {
+        "question": "What is the default web server port that Django uses when running locally?",
+        "options": [
+            "8000",
+            "5000",
+            "8080",
+            "3000"
+        ],
+        "answer": [
+            "8000"
+        ]
+    },
+    {
+        "question": "Which of the following are valid ways to create a Django app?",
+        "options": [
+            "python manage.py startapp app_name",
+            "django startapp app_name",
+            "django-admin startapp app_name",
+            "django startapp"
+        ],
+        "answer": [
+            "python manage.py startapp app_name",
+            "django-admin startapp app_name"
+        ]
+    },
+    {
+        "question": "Where do you define the URL patterns in a Django project?",
+        "options": [
+            "urls.py",
+            "settings.py",
+            "views.py",
+            "models.py"
+        ],
+        "answer": [
+            "urls.py"
+        ]
+    },
+    {
+        "question": "In Django, which of the following can be used to query a database?",
+        "options": [
+            "Django QuerySet",
+            "Python dictionaries",
+            "SQL commands",
+            "Django ORM methods"
+        ],
+        "answer": [
+            "Django QuerySet",
+            "Django ORM methods"
+        ]
+    },
+    {
+        "question": "Which file is used to store global settings for a Django project?",
+        "options": [
+            "settings.py",
+            "urls.py",
+            "manage.py",
+            "views.py"
+        ],
+        "answer": [
+            "settings.py"
+        ]
+    },
+    {
+        "question": "Which of the following are built-in Django fields?",
+        "options": [
+            "CharField",
+            "TextField",
+            "HTMLField",
+            "URLField"
+        ],
+        "answer": [
+            "CharField",
+            "TextField",
+            "URLField"
+        ]
+    },
+    {
+        "question": "What does the Django command `python manage.py migrate` do?",
+        "options": [
+            "Creates a new app",
+            "Creates database tables based on models",
+            "Runs the Django server",
+            "Checks for errors in models"
+        ],
+        "answer": [
+            "Creates database tables based on models"
+        ]
+    },
+    {
+        "question": "How can you start the Django development server?",
+        "options": [
+            "python manage.py runserver",
+            "django-admin runserver",
+            "django runserver",
+            "python runserver"
+        ],
+        "answer": [
+            "python manage.py runserver"
+        ]
+    },
+    {
+        "question": "Which of the following is a Django model method?",
+        "options": [
+            "save()",
+            "fetch()",
+            "remove()",
+            "delete()"
+        ],
+        "answer": [
+            "save()",
+            "delete()"
+        ]
+    },
+    {
+        "question": "What is the purpose of the `models.py` file in a Django app?",
+        "options": [
+            "To define URL patterns",
+            "To define database schema and ORM models",
+            "To handle HTTP requests",
+            "To configure app settings"
+        ],
+        "answer": [
+            "To define database schema and ORM models"
+        ]
+    },
+    {
+        "question": "Which Django template tag is used for inserting a variable into an HTML template?",
+        "options": [
+            "{{ }}",
+            "{% %}",
+            "{# #}",
+            "{% url %}"
+        ],
+        "answer": [
+            "{{ }}"
+        ]
+    },
+    {
+        "question": "In Django, what is the function of the `render()` method?",
+        "options": [
+            "To send a file as a response",
+            "To create a URL pattern",
+            "To render a template and return an HTTP response",
+            "To handle POST requests only"
+        ],
+        "answer": [
+            "To render a template and return an HTTP response"
+        ]
+    },
+    {
+        "question": "Which command should you use to create database migrations in Django?",
+        "options": [
+            "python manage.py makemigrations",
+            "python manage.py migrate",
+            "python manage.py startapp",
+            "django-admin makemigrations"
+        ],
+        "answer": [
+            "python manage.py makemigrations"
+        ]
+    },
+    {
+        "question": "What does Django's `@login_required` decorator do?",
+        "options": [
+            "Redirects users to a login page if they are not authenticated",
+            "Logs in the user automatically",
+            "Prevents users from logging out",
+            "Redirects authenticated users to the admin page"
+        ],
+        "answer": [
+            "Redirects users to a login page if they are not authenticated"
+        ]
+    },
+    {
+        "question": "What is the default template language used by Django?",
+        "options": [
+            "Jinja2",
+            "EJS",
+            "Django Template Language (DTL)",
+            "Handlebars"
+        ],
+        "answer": [
+            "Django Template Language (DTL)"
+        ]
+    },
+    {
+        "question": "Which of the following is a Django management command for creating a superuser?",
+        "options": [
+            "python manage.py createsuperuser",
+            "django-admin createuser",
+            "django-admin addsuperuser",
+            "python manage.py startuser"
+        ],
+        "answer": [
+            "python manage.py createsuperuser"
+        ]
+    },
+    {
+        "question": "In Django, what is the purpose of `MEDIA_ROOT`?",
+        "options": [
+            "To store user-uploaded files",
+            "To define the root URL of static files",
+            "To store server logs",
+            "To store database backups"
+        ],
+        "answer": [
+            "To store user-uploaded files"
+        ]
+    },
+    {
+        "question": "Which Django class is used to create forms from Django models?",
+        "options": [
+            "ModelForm",
+            "DjangoForm",
+            "Form",
+            "TemplateForm"
+        ],
+        "answer": [
+            "ModelForm"
+        ]
+    },
+    {
+        "question": "In Django, what does `reverse()` function do?",
+        "options": [
+            "Reverses the order of a list",
+            "Redirects to a specified URL",
+            "Generates a URL from a view name and arguments",
+            "Fetches all records in reverse order from a database"
+        ],
+        "answer": [
+            "Generates a URL from a view name and arguments"
+        ]
+    },
+    {
+        "question": "Which of the following is used to define one-to-many relationships in Django models?",
+        "options": [
+            "ForeignKey",
+            "OneToOneField",
+            "ManyToManyField",
+            "CharField"
+        ],
+        "answer": [
+            "ForeignKey"
+        ]
+    },
+    {
+        "question": "What does the Django `@csrf_exempt` decorator do?",
+        "options": [
+            "Exempts a view from CSRF protection",
+            "Enables CSRF protection for a view",
+            "Authenticates the user",
+            "Encrypts form data"
+        ],
+        "answer": [
+            "Exempts a view from CSRF protection"
+        ]
+    },
+    {
+        "question": "In Django, how do you access form data in a POST request?",
+        "options": [
+            "request.data",
+            "request.POST",
+            "request.get_data()",
+            "request.get_form()"
+        ],
+        "answer": [
+            "request.POST"
+        ]
+    },
+    {
+        "question": "Which setting is used to define the URL for static files in Django?",
+        "options": [
+            "STATIC_URL",
+            "STATICFILES_DIRS",
+            "MEDIA_URL",
+            "FILE_URL"
+        ],
+        "answer": [
+            "STATIC_URL"
+        ]
+    },
+    {
+        "question": "What is the purpose of Django’s `static` template tag?",
+        "options": [
+            "To load JavaScript files only",
+            "To generate URLs for static files",
+            "To link to Django views",
+            "To load template filters"
+        ],
+        "answer": [
+            "To generate URLs for static files"
+        ]
+    },
+    {
+        "question": "Which of the following statements about Django’s ORM is true?",
+        "options": [
+            "It allows interacting with the database using Python code.",
+            "It only works with SQL databases.",
+            "It requires raw SQL for all queries.",
+            "It does not support joins between tables."
+        ],
+        "answer": [
+            "It allows interacting with the database using Python code."
+        ]
+    },
+    {
+        "question": "In Django, which of the following commands collects static files into a single location?",
+        "options": [
+            "python manage.py collectstatic",
+            "python manage.py gatherstatic",
+            "python manage.py makestatic",
+            "python manage.py gatherfiles"
+        ],
+        "answer": [
+            "python manage.py collectstatic"
+        ]
+    },
+    {
+        "question": "What is the purpose of the `get_object_or_404` function in Django?",
+        "options": [
+            "It fetches an object from the database or returns a 404 error if not found.",
+            "It automatically deletes an object.",
+            "It fetches an object and redirects to the homepage if not found.",
+            "It updates an object or creates a new one."
+        ],
+        "answer": [
+            "It fetches an object from the database or returns a 404 error if not found."
+        ]
+    },
+    {
+        "question": "Which Django model field is used to store a date and time?",
+        "options": [
+            "DateField",
+            "TimeField",
+            "DateTimeField",
+            "TimestampField"
+        ],
+        "answer": [
+            "DateTimeField"
+        ]
+    },
+    {
+        "question": "In Django templates, how do you escape HTML output by default?",
+        "options": [
+            "Django templates escape HTML output by default.",
+            "Using {{| safe }}",
+            "Using the {% escape %} tag",
+            "Using escape() function"
+        ],
+        "answer": [
+            "Django templates escape HTML output by default."
+        ]
+    },
+    {
+        "question": "Which Django template tag is used to loop over a list?",
+        "options": [
+            "{% for %}",
+            "{% loop %}",
+            "{% each %}",
+            "{% iterate %}"
+        ],
+        "answer": [
+            "{% for %}"
+        ]
+    },
+    {
+        "question": "What is the purpose of the `django.contrib.auth` module?",
+        "options": [
+            "It provides a framework for user authentication and authorization.",
+            "It provides email functionality.",
+            "It allows integration with REST APIs.",
+            "It enables session management."
+        ],
+        "answer": [
+            "It provides a framework for user authentication and authorization."
+        ]
+    },
+    {
+        "question": "Which middleware is responsible for enabling CSRF protection in Django?",
+        "options": [
+            "CsrfViewMiddleware",
+            "SessionMiddleware",
+            "AuthenticationMiddleware",
+            "MessageMiddleware"
+        ],
+        "answer": [
+            "CsrfViewMiddleware"
+        ]
+    },
+    {
+        "question": "What is the purpose of the `Meta` class in Django models?",
+        "options": [
+            "To specify additional options for model behavior.",
+            "To define the database schema.",
+            "To create model fields.",
+            "To define form widgets."
+        ],
+        "answer": [
+            "To specify additional options for model behavior."
+        ]
+    },
+    {
+        "question": "Which of the following is the default database used by Django?",
+        "options": [
+            "SQLite",
+            "PostgreSQL",
+            "MySQL",
+            "Oracle"
+        ],
+        "answer": [
+            "SQLite"
+        ]
+    },
+    {
+        "question": "What is Django's `select_related` used for?",
+        "options": [
+            "To fetch related objects in a single query with a foreign key relationship.",
+            "To delete related objects.",
+            "To create a many-to-many relationship.",
+            "To perform raw SQL queries."
+        ],
+        "answer": [
+            "To fetch related objects in a single query with a foreign key relationship."
+        ]
+    },
+    {
+        "question": "What does the Django `runserver` command do?",
+        "options": [
+            "Starts the Django development server.",
+            "Creates a new Django app.",
+            "Deploys the app to a production server.",
+            "Runs database migrations."
+        ],
+        "answer": [
+            "Starts the Django development server."
+        ]
+    },
+    {
+        "question": "Which Django class-based view is commonly used for handling form submissions?",
+        "options": [
+            "FormView",
+            "TemplateView",
+            "ListView",
+            "DetailView"
+        ],
+        "answer": [
+            "FormView"
+        ]
+    },
+    {
+        "question": "In Django, how can you limit the queryset returned by a ListView?",
+        "options": [
+            "Override the `get_queryset` method.",
+            "Set a limit attribute in the model.",
+            "Use the `filter_queryset` function.",
+            "Add a `limit` field in settings."
+        ],
+        "answer": [
+            "Override the `get_queryset` method."
+        ]
+    },
+    {
+        "question": "Which of the following is a valid way to define a URL pattern in Django?",
+        "options": [
+            "path('home/', views.home, name='home')",
+            "url('home/', views.home, name='home')",
+            "route('home/', views.home, name='home')",
+            "path('home/', name='home')"
+        ],
+        "answer": [
+            "path('home/', views.home, name='home')"
+        ]
+    },
+    {
+        "question": "In Django, which method is used to save changes to a model instance?",
+        "options": [
+            "instance.save()",
+            "instance.commit()",
+            "instance.update()",
+            "instance.create()"
+        ],
+        "answer": [
+            "instance.save()"
+        ]
+    },
+    {
+        "question": "What does Django’s `get_or_create()` method do?",
+        "options": [
+            "It retrieves an object if it exists, otherwise creates it.",
+            "It always creates a new object.",
+            "It retrieves a list of objects.",
+            "It updates an existing object."
+        ],
+        "answer": [
+            "It retrieves an object if it exists, otherwise creates it."
+        ]
+    },
+    {
+        "question": "Which of the following statements about Django signals is true?",
+        "options": [
+            "Signals allow decoupled applications to get notified when certain actions occur elsewhere.",
+            "Signals are only used for sending email notifications.",
+            "Signals are only used within views.",
+            "Signals do not work with models."
+        ],
+        "answer": [
+            "Signals allow decoupled applications to get notified when certain actions occur elsewhere."
+        ]
+    },
+    {
+        "question": "What is the purpose of `staticfiles_dirs` in Django settings?",
+        "options": [
+            "To specify additional directories to look for static files.",
+            "To specify the URL path for static files.",
+            "To configure media file storage.",
+            "To set the directory for template files."
+        ],
+        "answer": [
+            "To specify additional directories to look for static files."
+        ]
+    },
+    {
+        "question": "In Django, what is the difference between `CharField` and `TextField`?",
+        "options": [
+            "CharField has a max length, while TextField does not.",
+            "TextField is only for numeric values.",
+            "CharField is used for date fields.",
+            "CharField allows multi-line input."
+        ],
+        "answer": [
+            "CharField has a max length, while TextField does not."
+        ]
+    },
+    {
+        "question": "Which decorator is used to require users to have a specific permission to access a view?",
+        "options": [
+            "@permission_required",
+            "@user_passes_test",
+            "@staff_member_required",
+            "@login_required"
+        ],
+        "answer": [
+            "@permission_required"
+        ]
+    },
+    {
+        "question": "What is the purpose of the `on_delete` parameter in Django’s ForeignKey field?",
+        "options": [
+            "It specifies what happens when the referenced object is deleted.",
+            "It removes the foreign key constraint.",
+            "It prevents the object from being deleted.",
+            "It automatically creates a new related object."
+        ],
+        "answer": [
+            "It specifies what happens when the referenced object is deleted."
+        ]
+    },
+    {
+        "question": "In Django, what does the `makemigrations` command do?",
+        "options": [
+            "Generates migration files for model changes.",
+            "Applies migrations to the database.",
+            "Creates a new database.",
+            "Reverts database migrations."
+        ],
+        "answer": [
+            "Generates migration files for model changes."
+        ]
+    },
+    {
+        "question": "Which field type in Django is best for storing a large image?",
+        "options": [
+            "ImageField",
+            "FileField",
+            "TextField",
+            "BinaryField"
+        ],
+        "answer": [
+            "ImageField"
+        ]
+    },
+    {
+        "question": "What does `__str__` method in Django models do?",
+        "options": [
+            "It defines a human-readable representation of the model.",
+            "It saves a model instance to the database.",
+            "It deletes a model instance.",
+            "It retrieves a model instance by ID."
+        ],
+        "answer": [
+            "It defines a human-readable representation of the model."
+        ]
+    },
+    {
+        "question": "In Django REST framework, which class is used to serialize Django model instances?",
+        "options": [
+            "ModelSerializer",
+            "FormSerializer",
+            "InstanceSerializer",
+            "DataSerializer"
+        ],
+        "answer": [
+            "ModelSerializer"
+        ]
+    },
+    {
+        "question": "What is the purpose of Django's `ContentType` framework?",
+        "options": [
+            "It provides a way to create generic relations between models.",
+            "It handles database migrations.",
+            "It allows template inheritance.",
+            "It manages user authentication."
+        ],
+        "answer": [
+            "It provides a way to create generic relations between models."
+        ]
+    },
+    {
+        "question": "Which method is used to filter query results in Django ORM?",
+        "options": [
+            "filter()",
+            "select()",
+            "search()",
+            "query()"
+        ],
+        "answer": [
+            "filter()"
+        ]
+    },
+    {
+        "question": "In Django, how can you display error messages for form validation?",
+        "options": [
+            "{{ form.errors }}",
+            "{{ form.warnings }}",
+            "{{ form.error_messages }}",
+            "{{ form.validation_messages }}"
+        ],
+        "answer": [
+            "{{ form.errors }}"
+        ]
+    },
+    {
+        "question": "What is the purpose of Django’s `prefetch_related`?",
+        "options": [
+            "It reduces the number of queries for many-to-many and reverse foreign key relationships.",
+            "It filters querysets.",
+            "It creates related models.",
+            "It updates fields automatically."
+        ],
+        "answer": [
+            "It reduces the number of queries for many-to-many and reverse foreign key relationships."
+        ]
+    },
+    {
+        "question": "What is the function of Django’s `SessionMiddleware`?",
+        "options": [
+            "It enables session management across requests.",
+            "It handles user authentication.",
+            "It logs errors automatically.",
+            "It manages static file loading."
+        ],
+        "answer": [
+            "It enables session management across requests."
+        ]
+    },
+    {
+        "question": "In Django, what is the purpose of `LOGIN_REDIRECT_URL` in settings?",
+        "options": [
+            "It defines the URL to redirect to after a successful login.",
+            "It defines the URL to redirect to after a failed login.",
+            "It specifies the logout page.",
+            "It sets the URL for password reset."
+        ],
+        "answer": [
+            "It defines the URL to redirect to after a successful login."
+        ]
+    },
+    {
+        "question": "Which template tag in Django is used to extend a base template?",
+        "options": [
+            "{% extends %}",
+            "{% include %}",
+            "{% base %}",
+            "{% template %}"
+        ],
+        "answer": [
+            "{% extends %}"
+        ]
+    },
+    {
+        "question": "In Django, how do you define a default ordering for a model’s objects?",
+        "options": [
+            "Use `ordering` in the model's `Meta` class.",
+            "Call `order_by()` on the model.",
+            "Define `default_order` in the model class.",
+            "Set `order_field` in the model's options."
+        ],
+        "answer": [
+            "Use `ordering` in the model's `Meta` class."
+        ]
+    },
+    {
+        "question": "Which command is used to create a migration file for adding a new model field?",
+        "options": [
+            "python manage.py makemigrations",
+            "python manage.py migrate",
+            "python manage.py addfield",
+            "python manage.py runserver"
+        ],
+        "answer": [
+            "python manage.py makemigrations"
+        ]
+    },
+    {
+        "question": "What does the `slug` field typically represent in a Django model?",
+        "options": [
+            "A URL-friendly version of a string.",
+            "An integer ID.",
+            "A database primary key.",
+            "A unique timestamp."
+        ],
+        "answer": [
+            "A URL-friendly version of a string."
+        ]
+    },
+    {
+        "question": "In Django, which HTTP method does the `get()` function handle in a view?",
+        "options": [
+            "GET",
+            "POST",
+            "PUT",
+            "DELETE"
+        ],
+        "answer": [
+            "GET"
+        ]
+    },
+    {
+        "question": "Which of the following settings controls the maximum age of session cookies in Django?",
+        "options": [
+            "SESSION_COOKIE_AGE",
+            "SESSION_COOKIE_MAX",
+            "COOKIE_MAX_AGE",
+            "SESSION_LIFETIME"
+        ],
+        "answer": [
+            "SESSION_COOKIE_AGE"
+        ]
+    },
+    {
+        "question": "Which of the following is true about Django’s `User` model?",
+        "options": [
+            "It includes fields for username, password, and email by default.",
+            "It only has a username field.",
+            "It does not store email addresses.",
+            "It must be customized to use."
+        ],
+        "answer": [
+            "It includes fields for username, password, and email by default."
+        ]
+    },
+    {
+        "question": "What is the purpose of Django’s `middleware`?",
+        "options": [
+            "To process requests and responses globally before reaching views.",
+            "To handle URL patterns.",
+            "To manage database models.",
+            "To define form validation rules."
+        ],
+        "answer": [
+            "To process requests and responses globally before reaching views."
+        ]
+    },
+    {
+        "question": "Which of the following commands is used to list all migrations applied to a Django project?",
+        "options": [
+            "python manage.py showmigrations",
+            "python manage.py listmigrations",
+            "python manage.py checkmigrations",
+            "python manage.py migrations"
+        ],
+        "answer": [
+            "python manage.py showmigrations"
+        ]
+    },
+    {
+        "question": "What is the purpose of Django’s `url()` function in older versions?",
+        "options": [
+            "To define URL patterns in urls.py.",
+            "To start the server.",
+            "To apply migrations.",
+            "To handle authentication."
+        ],
+        "answer": [
+            "To define URL patterns in urls.py."
+        ]
+    },
+    {
+        "question": "Which Django ORM method can be used to retrieve a single object by primary key?",
+        "options": [
+            "get()",
+            "filter()",
+            "all()",
+            "exists()"
+        ],
+        "answer": [
+            "get()"
+        ]
+    },
+    {
+        "question": "What does Django’s `JsonResponse` class do?",
+        "options": [
+            "Returns JSON-encoded data in an HTTP response.",
+            "Creates a JSON file.",
+            "Returns HTML content.",
+            "Processes form data as JSON."
+        ],
+        "answer": [
+            "Returns JSON-encoded data in an HTTP response."
+        ]
+    },
+    {
+        "question": "In Django, which settings option defines where uploaded media files are stored?",
+        "options": [
+            "MEDIA_ROOT",
+            "STATIC_ROOT",
+            "FILE_PATH",
+            "UPLOAD_DIR"
+        ],
+        "answer": [
+            "MEDIA_ROOT"
+        ]
+    },
+    {
+        "question": "What is the purpose of Django’s `RequestContext`?",
+        "options": [
+            "To pass context data to a template with additional processors.",
+            "To render JSON data.",
+            "To store static file URLs.",
+            "To configure database connections."
+        ],
+        "answer": [
+            "To pass context data to a template with additional processors."
+        ]
+    },
+    {
+        "question": "Which Django setting is used to configure cache backends?",
+        "options": [
+            "CACHES",
+            "CACHE_BACKEND",
+            "CACHE_CONFIG",
+            "CACHE_STORE"
+        ],
+        "answer": [
+            "CACHES"
+        ]
+    },
+    {
+        "question": "In Django REST Framework, which HTTP status code is typically returned by a successful `POST` request?",
+        "options": [
+            "201 Created",
+            "200 OK",
+            "404 Not Found",
+            "500 Internal Server Error"
+        ],
+        "answer": [
+            "201 Created"
+        ]
+    },
+    {
+        "question": "Which of the following Django class-based views is most suitable for displaying a list of objects?",
+        "options": [
+            "ListView",
+            "DetailView",
+            "TemplateView",
+            "FormView"
+        ],
+        "answer": [
+            "ListView"
+        ]
+    },
+    {
+        "question": "What is `select_for_update()` used for in Django’s ORM?",
+        "options": [
+            "To lock rows for an update to prevent race conditions.",
+            "To fetch all related records for an object.",
+            "To order records by a specific field.",
+            "To perform an insert operation."
+        ],
+        "answer": [
+            "To lock rows for an update to prevent race conditions."
+        ]
+    },
+    {
+        "question": "In Django REST Framework, which decorator is used to apply permissions to view functions?",
+        "options": [
+            "@permission_classes",
+            "@allow_all",
+            "@restrict_access",
+            "@auth_required"
+        ],
+        "answer": [
+            "@permission_classes"
+        ]
+    },
+    {
+        "question": "What does Django’s `loaddata` command do?",
+        "options": [
+            "Loads data from fixtures into the database.",
+            "Exports data from the database to a fixture.",
+            "Loads static files for the project.",
+            "Generates a new migration file."
+        ],
+        "answer": [
+            "Loads data from fixtures into the database."
+        ]
+    },
+    {
+        "question": "In Django, what is a queryset?",
+        "options": [
+            "A collection of database queries to retrieve model instances.",
+            "A form for entering data.",
+            "A URL mapping pattern.",
+            "A template rendering engine."
+        ],
+        "answer": [
+            "A collection of database queries to retrieve model instances."
+        ]
+    },
+    {
+        "question": "Which Django testing tool is commonly used to simulate GET and POST requests?",
+        "options": [
+            "Client",
+            "Server",
+            "RequestHandler",
+            "ResponseSimulator"
+        ],
+        "answer": [
+            "Client"
+        ]
+    },
+    {
+        "question": "In Django, what does the `SimpleTestCase` class allow you to do?",
+        "options": [
+            "Test code without requiring a database connection.",
+            "Perform performance testing.",
+            "Test database migrations.",
+            "Run multi-threaded tests."
+        ],
+        "answer": [
+            "Test code without requiring a database connection."
+        ]
+    },
+    {
+        "question": "What is the purpose of Django’s `MIDDLEWARE` setting?",
+        "options": [
+            "To define a list of middleware components to process requests and responses.",
+            "To configure URL patterns.",
+            "To connect to external APIs.",
+            "To manage static files."
+        ],
+        "answer": [
+            "To define a list of middleware components to process requests and responses."
+        ]
+    },
+    {
+        "question": "In Django, what is `reverse_lazy` commonly used for?",
+        "options": [
+            "To delay URL resolution until the view is called.",
+            "To make URL patterns available to templates.",
+            "To pre-load static files.",
+            "To render a form."
+        ],
+        "answer": [
+            "To delay URL resolution until the view is called."
+        ]
+    },
+    {
+        "question": "Which Django command is used to check for project configuration errors?",
+        "options": [
+            "python manage.py check",
+            "python manage.py test",
+            "python manage.py validate",
+            "python manage.py lint"
+        ],
+        "answer": [
+            "python manage.py check"
+        ]
+    },
+    {
+        "question": "What is the function of `@action` decorator in Django REST Framework viewsets?",
+        "options": [
+            "To create custom actions in a viewset.",
+            "To define default HTTP methods.",
+            "To establish URL patterns for the project.",
+            "To initialize database transactions."
+        ],
+        "answer": [
+            "To create custom actions in a viewset."
+        ]
+    },
+    {
+        "question": "Which of the following is true about `ContentType` in Django?",
+        "options": [
+            "It allows you to create generic relations to other models.",
+            "It is only used for authentication.",
+            "It defines URL patterns for the admin site.",
+            "It stores uploaded media files."
+        ],
+        "answer": [
+            "It allows you to create generic relations to other models."
+        ]
+    },
+    {
+        "question": "In Django, which setting controls the location for user-uploaded media files?",
+        "options": [
+            "MEDIA_ROOT",
+            "STATIC_ROOT",
+            "UPLOADS_DIR",
+            "USER_FILES"
+        ],
+        "answer": [
+            "MEDIA_ROOT"
+        ]
+    },
+    {
+        "question": "Which caching backend does Django use by default?",
+        "options": [
+            "LocMemCache",
+            "Redis",
+            "FileBasedCache",
+            "Memcached"
+        ],
+        "answer": [
+            "LocMemCache"
+        ]
+    },
+    {
+        "question": "What is the purpose of Django’s `migrate` command?",
+        "options": [
+            "To apply database migrations based on model changes.",
+            "To create a new model instance.",
+            "To install Django packages.",
+            "To rollback migrations."
+        ],
+        "answer": [
+            "To apply database migrations based on model changes."
+        ]
+    },
+    {
+        "question": "In Django templates, how do you load a custom template tag library?",
+        "options": [
+            "{% load library_name %}",
+            "{% include library_name %}",
+            "{% tag library_name %}",
+            "{% extend library_name %}"
+        ],
+        "answer": [
+            "{% load library_name %}"
+        ]
+    },
+    {
+        "question": "Which Django field is best suited to store an IP address?",
+        "options": [
+            "GenericIPAddressField",
+            "CharField",
+            "TextField",
+            "IPAddressField"
+        ],
+        "answer": [
+            "GenericIPAddressField"
+        ]
+    },
+    {
+        "question": "In Django, how would you implement a many-to-many relationship with an additional 'through' model?",
+        "options": [
+            "Define a `ManyToManyField` with the `through` argument set to the intermediary model.",
+            "Use `ForeignKey` fields in the models.",
+            "Use `OneToOneField` with the `through` argument.",
+            "Define a direct relationship with two `ManyToManyField` instances."
+        ],
+        "answer": [
+            "Define a `ManyToManyField` with the `through` argument set to the intermediary model."
+        ]
+    },
+    {
+        "question": "What is the purpose of Django’s `pre_save` and `post_save` signals?",
+        "options": [
+            "To allow code execution before and after a model’s `save` method is called.",
+            "To prevent a model from saving when specific conditions are met.",
+            "To change the database schema before saving a model.",
+            "To optimize SQL queries for saving models."
+        ],
+        "answer": [
+            "To allow code execution before and after a model’s `save` method is called."
+        ]
+    },
+    {
+        "question": "In Django REST Framework, how can you customize pagination globally across all views?",
+        "options": [
+            "Set `DEFAULT_PAGINATION_CLASS` and `PAGE_SIZE` in `REST_FRAMEWORK` settings.",
+            "Add `Pagination` to each view individually.",
+            "Define pagination settings directly in each serializer.",
+            "Override the `paginate_queryset` method in every view."
+        ],
+        "answer": [
+            "Set `DEFAULT_PAGINATION_CLASS` and `PAGE_SIZE` in `REST_FRAMEWORK` settings."
+        ]
+    },
+    {
+        "question": "What is the role of Django’s `transaction.atomic()` in managing database operations?",
+        "options": [
+            "To ensure that a block of code executes within a single transaction, rolling back on exceptions.",
+            "To optimize queries by disabling database constraints.",
+            "To create and delete temporary tables.",
+            "To manage migrations for atomic models."
+        ],
+        "answer": [
+            "To ensure that a block of code executes within a single transaction, rolling back on exceptions."
+        ]
+    },
+    {
+        "question": "How would you implement a custom permission class in Django REST Framework to allow only authenticated users with specific object-level access?",
+        "options": [
+            "Subclass `BasePermission` and override the `has_object_permission` method.",
+            "Define the permission in the model itself.",
+            "Add the permission to the serializer's `Meta` class.",
+            "Use `allow_object_access` in the view."
+        ],
+        "answer": [
+            "Subclass `BasePermission` and override the `has_object_permission` method."
+        ]
+    },
+    {
+        "question": "How can you implement optimistic concurrency control in Django?",
+        "options": [
+            "Use `select_for_update` along with a timestamp or version field to track changes.",
+            "Use `atomic()` and `pre_save` signals to lock rows.",
+            "Create unique constraints on the model fields.",
+            "Set up foreign key relationships with cascade updates."
+        ],
+        "answer": [
+            "Use `select_for_update` along with a timestamp or version field to track changes."
+        ]
+    },
+    {
+        "question": "In Django, which of the following correctly describes `GenericForeignKey` and its use cases?",
+        "options": [
+            "Allows a model to reference any object in the database without a foreign key constraint.",
+            "Enforces foreign key constraints across multiple tables.",
+            "Only applies to one-to-one relationships.",
+            "Does not support polymorphic models."
+        ],
+        "answer": [
+            "Allows a model to reference any object in the database without a foreign key constraint."
+        ]
+    },
+    {
+        "question": "What is the difference between `Serializer` and `ModelSerializer` in Django REST Framework?",
+        "options": [
+            "`ModelSerializer` automatically generates fields based on a model, while `Serializer` requires manual definition.",
+            "`Serializer` is only used for forms, while `ModelSerializer` is used for models.",
+            "`ModelSerializer` is faster than `Serializer` for non-model data.",
+            "`Serializer` allows automatic validation, but `ModelSerializer` does not."
+        ],
+        "answer": [
+            "`ModelSerializer` automatically generates fields based on a model, while `Serializer` requires manual definition."
+        ]
+    },
+    {
+        "question": "How can you enable database connection pooling in Django?",
+        "options": [
+            "Configure connection pooling options in the database’s engine settings.",
+            "Set `POOL_SIZE` in the Django settings file.",
+            "Install the `django-pool` package and configure `DATABASE_POOL`.",
+            "Use `pool=True` argument in all `QuerySet` calls."
+        ],
+        "answer": [
+            "Configure connection pooling options in the database’s engine settings."
+        ]
+    },
+    {
+        "question": "In Django, which of the following can improve the performance of a queryset that retrieves large related data sets?",
+        "options": [
+            "Use `select_related` for foreign key relationships and `prefetch_related` for many-to-many relationships.",
+            "Use `filter()` for foreign keys and `order_by()` for many-to-many fields.",
+            "Set the `max_results` parameter in the query.",
+            "Disable transactions for read-only queries."
+        ],
+        "answer": [
+            "Use `select_related` for foreign key relationships and `prefetch_related` for many-to-many relationships."
+        ]
+    },
+    {
+        "question": "Which of the following methods can be used to implement rate limiting in Django REST Framework?",
+        "options": [
+            "Set `DEFAULT_THROTTLE_CLASSES` and `DEFAULT_THROTTLE_RATES` in `REST_FRAMEWORK` settings.",
+            "Use `rate_limit()` function in each view.",
+            "Add `RateLimiter` to every model.",
+            "Override the `get_limit()` method in serializers."
+        ],
+        "answer": [
+            "Set `DEFAULT_THROTTLE_CLASSES` and `DEFAULT_THROTTLE_RATES` in `REST_FRAMEWORK` settings."
+        ]
+    },
+    {
+        "question": "How would you make a Django model property appear as a field in Django REST Framework serializers?",
+        "options": [
+            "Add the property to `extra_kwargs` in the serializer.",
+            "Use `SerializerMethodField` and define a method to return the property value.",
+            "Define the property as a `Field()` in the model.",
+            "Override the `get_field()` method in the serializer."
+        ],
+        "answer": [
+            "Use `SerializerMethodField` and define a method to return the property value."
+        ]
+    },
+    {
+        "question": "What is the purpose of Django’s `Deferred` fields?",
+        "options": [
+            "To delay loading certain fields until they are accessed, reducing query time.",
+            "To prevent fields from being accessed altogether.",
+            "To load all fields eagerly in a single query.",
+            "To optimize foreign key relationships in a join query."
+        ],
+        "answer": [
+            "To delay loading certain fields until they are accessed, reducing query time."
+        ]
+    },
+    {
+        "question": "In Django, what is the effect of setting `unique_together` in a model’s `Meta` class?",
+        "options": [
+            "It enforces uniqueness across the specified fields at the database level.",
+            "It prevents any null values in the fields.",
+            "It merges related fields into one field in the database.",
+            "It makes all instances of the model unique in the database."
+        ],
+        "answer": [
+            "It enforces uniqueness across the specified fields at the database level."
+        ]
+    },
+    {
+        "question": "Which of the following can help ensure that a Django model’s `save()` method is overridden correctly for custom validation?",
+        "options": [
+            "Use `super().save(*args, **kwargs)` and call custom validation before saving.",
+            "Override `validate()` method and skip calling the superclass’s `save()` method.",
+            "Directly edit the model’s table.",
+            "Only define validation within the admin interface."
+        ],
+        "answer": [
+            "Use `super().save(*args, **kwargs)` and call custom validation before saving."
+        ]
+    },
+    {
+        "question": "How would you implement custom middleware in Django?",
+        "options": [
+            "Define a class with `__init__` and `__call__` methods, and add it to `MIDDLEWARE` setting.",
+            "Define a function that takes `request` and `response` as arguments, and register it in `MIDDLEWARE_CLASSES`.",
+            "Create a subclass of `BaseMiddleware` and implement the `process_request` and `process_response` methods.",
+            "Write a `middleware.py` file and link it to the views."
+        ],
+        "answer": [
+            "Create a subclass of `BaseMiddleware` and implement the `process_request` and `process_response` methods."
+        ]
+    },
+    {
+        "question": "What is Django’s `TransactionMiddleware` and when should it be used?",
+        "options": [
+            "It ensures that all database queries within a request are committed as a single transaction.",
+            "It is used to rollback database transactions in the event of an error during rendering.",
+            "It helps in managing user authentication across requests.",
+            "It caches transaction data for faster queries."
+        ],
+        "answer": [
+            "It ensures that all database queries within a request are committed as a single transaction."
+        ]
+    },
+    {
+        "question": "What does the `defer` method do in Django ORM?",
+        "options": [
+            "It defers loading of fields, optimizing queries by reducing data fetched from the database.",
+            "It adds deferred transactions to a model.",
+            "It defers the model’s save method until after the queryset is executed.",
+            "It defines default behavior for missing field values."
+        ],
+        "answer": [
+            "It defers loading of fields, optimizing queries by reducing data fetched from the database."
+        ]
+    },
+    {
+        "question": "How would you efficiently query a model to retrieve only related fields for foreign keys in Django?",
+        "options": [
+            "Use `select_related` to perform a single SQL query and reduce database hits.",
+            "Use `filter()` to pre-load related objects.",
+            "Use `prefetch_related` for more efficient foreign key queries.",
+            "Set `related_name` in the foreign key field to automatically fetch related objects."
+        ],
+        "answer": [
+            "Use `select_related` to perform a single SQL query and reduce database hits."
+        ]
+    },
+    {
+        "question": "What is the use of `SerializerMethodField` in Django REST Framework?",
+        "options": [
+            "It allows you to define a custom method to compute and return a value that can be used as a field in the serialized output.",
+            "It helps in creating a field that automatically validates input data.",
+            "It serializes the model’s method instead of its attribute.",
+            "It forces the serializer to ignore a field if not found in the model."
+        ],
+        "answer": [
+            "It allows you to define a custom method to compute and return a value that can be used as a field in the serialized output."
+        ]
+    },
+    {
+        "question": "How can you implement a custom field validator for a serializer in Django REST Framework?",
+        "options": [
+            "Use `validators` attribute in the field and pass the validator function.",
+            "Define a `validate_fieldname()` method inside the serializer.",
+            "Override the `validate()` method of the serializer.",
+            "Use `CustomValidator()` class in the serializer’s `Meta` class."
+        ],
+        "answer": [
+            "Define a `validate_fieldname()` method inside the serializer."
+        ]
+    },
+    {
+        "question": "How do you implement efficient bulk operations (insert, update) with Django ORM?",
+        "options": [
+            "Use `bulk_create()`, `bulk_update()`, and `bulk_delete()` methods to perform operations on multiple records at once.",
+            "Use `save()` method inside a loop for each record.",
+            "Use `select_for_update` to lock rows before updating.",
+            "Use raw SQL queries for bulk operations."
+        ],
+        "answer": [
+            "Use `bulk_create()`, `bulk_update()`, and `bulk_delete()` methods to perform operations on multiple records at once."
+        ]
+    },
+    {
+        "question": "How would you ensure that a viewset in Django REST Framework supports multiple authentication methods?",
+        "options": [
+            "Define `authentication_classes` as a list containing different authentication classes.",
+            "Override the `authenticate()` method inside the viewset.",
+            "Use `permission_classes` to check different authentication methods.",
+            "Create a custom middleware to switch between authentication methods."
+        ],
+        "answer": [
+            "Define `authentication_classes` as a list containing different authentication classes."
+        ]
+    },
+    {
+        "question": "How do you handle file uploads efficiently in Django, especially for large files?",
+        "options": [
+            "Use streaming uploads with `FileUploadParser` in Django REST Framework.",
+            "Use the `FileField` and store files in a local directory.",
+            "Store files directly in the database using `TextField` or `BinaryField`.",
+            "Use Django’s `MediaFile` class for large file management."
+        ],
+        "answer": [
+            "Use streaming uploads with `FileUploadParser` in Django REST Framework."
+        ]
+    },
+    {
+        "question": "In Django, how do you handle database schema changes without downtime in a production environment?",
+        "options": [
+            "Use Django migrations with `--fake` to safely apply schema changes while keeping production data intact.",
+            "Perform schema changes directly using SQL commands.",
+            "Use schema management tools like Alembic to manage schema changes separately from Django.",
+            "Perform a database dump and restore the schema changes."
+        ],
+        "answer": [
+            "Use Django migrations with `--fake` to safely apply schema changes while keeping production data intact."
+        ]
+    },
+    {
+        "question": "How can you prevent race conditions in Django when two users are trying to modify the same data simultaneously?",
+        "options": [
+            "Use `select_for_update` in queries to lock rows until the transaction is complete.",
+            "Use Django’s `LockingModel` for row-level locks.",
+            "Set a `unique` constraint on the database column.",
+            "Ensure that each update is performed in a separate transaction."
+        ],
+        "answer": [
+            "Use `select_for_update` in queries to lock rows until the transaction is complete."
+        ]
+    },
+    {
+        "question": "How do you optimize database query performance when you need to fetch multiple related objects using Django ORM?",
+        "options": [
+            "Use `prefetch_related` to fetch related objects efficiently with separate queries and avoid N+1 queries.",
+            "Use `select_related` only if the related objects are foreign keys.",
+            "Perform a raw SQL query to fetch the data.",
+            "Use `order_by()` to sort queries and reduce load time."
+        ],
+        "answer": [
+            "Use `prefetch_related` to fetch related objects efficiently with separate queries and avoid N+1 queries."
+        ]
+    },
+    {
+        "question": "How would you implement a custom manager for a Django model to handle complex query logic?",
+        "options": [
+            "Define a `Manager` class and implement custom query methods like `get_queryset()`.",
+            "Override the `save()` method to handle complex queries.",
+            "Define custom methods inside the model's `Meta` class.",
+            "Use `QuerySet` class inside the `Meta` class for advanced queries."
+        ],
+        "answer": [
+            "Define a `Manager` class and implement custom query methods like `get_queryset()`."
+        ]
+    },
+    {
+        "question": "What is the function of the `perform_create` method in Django REST Framework viewsets?",
+        "options": [
+            "It allows customization of how an object is created before saving to the database.",
+            "It validates the object before saving it.",
+            "It serializes the object before sending a response.",
+            "It handles pagination when retrieving lists of objects."
+        ],
+        "answer": [
+            "It allows customization of how an object is created before saving to the database."
+        ]
+    },
+    {
+        "question": "What is the recommended way to ensure that a Django model field is always unique across the database, including null values?",
+        "options": [
+            "Use `UniqueConstraint` with `condition` in the model’s `Meta` class.",
+            "Use `unique=True` in the field definition.",
+            "Set `null=False` to ensure uniqueness on null values.",
+            "Define a custom validator for uniqueness."
+        ],
+        "answer": [
+            "Use `UniqueConstraint` with `condition` in the model’s `Meta` class."
+        ]
+    },
+    {
+        "question": "How do you prevent Django from executing SQL queries when a model’s `save()` method is called?",
+        "options": [
+            "Override `save()` method and pass `force_insert=False`.",
+            "Set `skip_saving=True` in the model instance.",
+            "Use `save_m2m()` instead of `save()`.",
+            "Use `defer()` on the model fields."
+        ],
+        "answer": [
+            "Override `save()` method and pass `force_insert=False`."
+        ]
+    },
+    {
+        "question": "How would you add custom validation to a Django form field?",
+        "options": [
+            "Define a `clean_fieldname()` method inside the form.",
+            "Use a custom `validators` argument in the form field definition.",
+            "Override the `validate()` method inside the form.",
+            "Use `clean()` method in the model."
+        ],
+        "answer": [
+            "Define a `clean_fieldname()` method inside the form."
+        ]
+    },
+    {
+        "question": "In Django, how do you prevent the default `save()` method from automatically updating the `updated_at` field on a model?",
+        "options": [
+            "Override the `save()` method and exclude the `updated_at` field from the update.",
+            "Use `auto_now=False` for the `updated_at` field.",
+            "Use `editable=False` in the `updated_at` field definition.",
+            "Set `null=True` for the `updated_at` field."
+        ],
+        "answer": [
+            "Override the `save()` method and exclude the `updated_at` field from the update."
+        ]
+    },
+    {
+        "question": "Which of the following is true when using `prefetch_related` in Django ORM?",
+        "options": [
+            "It performs a single query to fetch related objects for many-to-many or reverse foreign key relationships.",
+            "It performs a single query to fetch related objects for foreign key relationships.",
+            "It retrieves the related data in multiple queries and caches them.",
+            "It performs a raw SQL join to retrieve the related data."
+        ],
+        "answer": [
+            "It retrieves the related data in multiple queries and caches them."
+        ]
+    },
+    {
+        "question": "How would you include a custom model method in Django REST Framework’s `ModelSerializer`?",
+        "options": [
+            "Use `SerializerMethodField` and define a custom method to access the model method.",
+            "Use `model_method` in the `Meta` class of the serializer.",
+            "Define the model method in the `to_representation` method of the serializer.",
+            "Include the model method as a regular field in the serializer."
+        ],
+        "answer": [
+            "Use `SerializerMethodField` and define a custom method to access the model method."
+        ]
+    },
+    {
+        "question": "What is the purpose of Django’s `Q` objects in queries?",
+        "options": [
+            "They allow complex queries with `OR` logic, combining multiple query conditions.",
+            "They are used to retrieve querysets by model attributes.",
+            "They are used to create new model fields in queries.",
+            "They are used to optimize query performance by caching results."
+        ],
+        "answer": [
+            "They allow complex queries with `OR` logic, combining multiple query conditions."
+        ]
+    },
+    {
+        "question": "How would you create a many-to-many relationship between two models with additional fields in Django?",
+        "options": [
+            "Define a `ManyToManyField` with the `through` argument pointing to the intermediary model.",
+            "Use `ForeignKey` on both models and manage the relationship manually.",
+            "Create a `OneToOneField` on both models to represent the relationship.",
+            "Define a `ManyToManyField` with an additional `fields` argument."
+        ],
+        "answer": [
+            "Define a `ManyToManyField` with the `through` argument pointing to the intermediary model."
+        ]
+    },
+    {
+        "question": "How can you prevent the creation of a new object in Django if a duplicate value already exists for a unique field?",
+        "options": [
+            "Use `unique=True` on the model field.",
+            "Use `save()` with a check for duplicates before calling it.",
+            "Use `clean()` method inside the model to handle duplicates.",
+            "Override the `get_or_create()` method on the model."
+        ],
+        "answer": [
+            "Use `unique=True` on the model field."
+        ]
+    },
+    {
+        "question": "In Django, what is the difference between `FileField` and `ImageField`?",
+        "options": [
+            "`ImageField` is a subclass of `FileField` specifically for image files and provides additional validation.",
+            "`FileField` supports only images, while `ImageField` supports other file types.",
+            "There is no difference; both are used for uploading files.",
+            "`FileField` supports more file formats than `ImageField`."
+        ],
+        "answer": [
+            "`ImageField` is a subclass of `FileField` specifically for image files and provides additional validation."
+        ]
+    },
+    {
+        "question": "What does Django’s `ModelForm` class do?",
+        "options": [
+            "It provides an easy way to handle form validation and rendering for model instances.",
+            "It converts model data into JSON format for API responses.",
+            "It automatically creates a database table based on the form fields.",
+            "It is used to define custom queries for creating forms."
+        ],
+        "answer": [
+            "It provides an easy way to handle form validation and rendering for model instances."
+        ]
+    },
+    {
+        "question": "What does the `order_by()` method do in Django queries?",
+        "options": [
+            "It sorts the queryset based on the specified field(s).",
+            "It groups results based on the specified field(s).",
+            "It filters results based on the specified field(s).",
+            "It limits the number of records retrieved from the database."
+        ],
+        "answer": [
+            "It sorts the queryset based on the specified field(s)."
+        ]
+    },
+    {
+        "question": "In Django, how can you create a custom model manager for a specific query?",
+        "options": [
+            "Define a `Manager` subclass with a `get_queryset()` method and custom query logic.",
+            "Define a custom query in the `Meta` class of the model.",
+            "Override the `save()` method with custom query logic.",
+            "Use a `QuerySet` subclass to define custom methods for the model."
+        ],
+        "answer": [
+            "Define a `Manager` subclass with a `get_queryset()` method and custom query logic."
+        ]
+    },
+    {
+        "question": "How can you filter a queryset based on a related model’s field in Django?",
+        "options": [
+            "Use `filter()` with the related model's field by referencing it using the foreign key relationship.",
+            "Use `select_related()` to join the related model and filter using its field.",
+            "Use `prefetch_related()` for filtering related model fields.",
+            "Use `aggregate()` with a related model field."
+        ],
+        "answer": [
+            "Use `filter()` with the related model's field by referencing it using the foreign key relationship."
+        ]
+    },
+    {
+        "question": "What is the difference between `select_related` and `prefetch_related` in Django?",
+        "options": [
+            "`select_related` is for foreign key and one-to-one relationships, while `prefetch_related` is for many-to-many and reverse foreign key relationships.",
+            "`select_related` is faster than `prefetch_related` for all types of relationships.",
+            "`prefetch_related` performs better with one-to-one relationships.",
+            "`select_related` can only be used with `filter()` queries."
+        ],
+        "answer": [
+            "`select_related` is for foreign key and one-to-one relationships, while `prefetch_related` is for many-to-many and reverse foreign key relationships."
+        ]
+    },
+    {
+        "question": "In Django, how would you handle a form submission with file uploads in a view?",
+        "options": [
+            "Ensure `enctype='multipart/form-data'` is used in the form and save the uploaded file in the view.",
+            "Use `request.body` to directly handle file uploads in the view.",
+            "Store the file in the static folder and reference it in the view.",
+            "Use a custom `save_file()` method to store uploaded files."
+        ],
+        "answer": [
+            "Ensure `enctype='multipart/form-data'` is used in the form and save the uploaded file in the view."
+        ]
+    },
+    {
+        "question": "How would you create a custom template filter in Django?",
+        "options": [
+            "Define a function in a `templatetags` module and register it using `register.filter()`.",
+            "Override the `render()` method in a custom template class.",
+            "Create a `filter()` method inside a template view.",
+            "Use `add_filter()` method in the model."
+        ],
+        "answer": [
+            "Define a function in a `templatetags` module and register it using `register.filter()`."
+        ]
+    }
+]

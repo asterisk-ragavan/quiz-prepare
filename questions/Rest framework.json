@@ -1,0 +1,842 @@
+[
+    {
+        "question": "What is a REST API?",
+        "options": [
+            "A database management system",
+            "A tool for creating web designs",
+            "An architectural style for building APIs",
+            "A data storage format"
+        ],
+        "answer": [
+            "An architectural style for building APIs"
+        ]
+    },
+    {
+        "question": "Which HTTP method is commonly used to create a resource in a RESTful API?",
+        "options": [
+            "GET",
+            "POST",
+            "PUT",
+            "DELETE"
+        ],
+        "answer": [
+            "POST"
+        ]
+    },
+    {
+        "question": "What library is commonly used with Django to create REST APIs?",
+        "options": [
+            "Django CMS",
+            "Django REST framework",
+            "Django Channels",
+            "Django ORM"
+        ],
+        "answer": [
+            "Django REST framework"
+        ]
+    },
+    {
+        "question": "Which HTTP status code indicates a successful GET request?",
+        "options": [
+            "200",
+            "404",
+            "500",
+            "401"
+        ],
+        "answer": [
+            "200"
+        ]
+    },
+    {
+        "question": "In Django REST framework, what is a 'Serializer' used for?",
+        "options": [
+            "To convert database queries into HTML",
+            "To validate and transform data into JSON format",
+            "To manage database migrations",
+            "To handle authentication"
+        ],
+        "answer": [
+            "To validate and transform data into JSON format"
+        ]
+    },
+    {
+        "question": "Which of these decorators in Django REST framework is used to make a function-based view accept only GET requests?",
+        "options": [
+            "@require_POST",
+            "@require_GET",
+            "@api_view(['GET'])",
+            "@get_only"
+        ],
+        "answer": [
+            "@api_view(['GET'])"
+        ]
+    },
+    {
+        "question": "What is the purpose of the 'APIView' class in Django REST framework?",
+        "options": [
+            "To create HTML forms",
+            "To create web templates",
+            "To build views specifically for handling API requests",
+            "To manage database migrations"
+        ],
+        "answer": [
+            "To build views specifically for handling API requests"
+        ]
+    },
+    {
+        "question": "Which HTTP method is typically used to delete a resource in a RESTful API?",
+        "options": [
+            "POST",
+            "GET",
+            "PUT",
+            "DELETE"
+        ],
+        "answer": [
+            "DELETE"
+        ]
+    },
+    {
+        "question": "What HTTP status code is used to indicate that a resource was not found?",
+        "options": [
+            "200",
+            "401",
+            "404",
+            "500"
+        ],
+        "answer": [
+            "404"
+        ]
+    },
+    {
+        "question": "In Django REST framework, how do you apply authentication to a view?",
+        "options": [
+            "Use the @auth_required decorator",
+            "Use the 'permission_classes' attribute",
+            "Use the @require_authentication decorator",
+            "Set 'auth_type' in settings.py"
+        ],
+        "answer": [
+            "Use the 'permission_classes' attribute"
+        ]
+    },
+    {
+        "question": "What is the purpose of the 'ModelViewSet' class in Django REST framework?",
+        "options": [
+            "To automatically handle common actions for CRUD operations on a model",
+            "To manage HTML forms for model data",
+            "To create custom template views",
+            "To define URL patterns"
+        ],
+        "answer": [
+            "To automatically handle common actions for CRUD operations on a model"
+        ]
+    },
+    {
+        "question": "Which function is used in Django REST framework to map URL paths to views?",
+        "options": [
+            "path()",
+            "urlconf()",
+            "route()",
+            "router.register()"
+        ],
+        "answer": [
+            "router.register()"
+        ]
+    },
+    {
+        "question": "Which method should you override in a ViewSet to customize the creation of an object?",
+        "options": [
+            "create()",
+            "retrieve()",
+            "update()",
+            "list()"
+        ],
+        "answer": [
+            "create()"
+        ]
+    },
+    {
+        "question": "What is the purpose of 'pagination' in a Django REST API?",
+        "options": [
+            "To secure API endpoints",
+            "To split responses into pages for easier handling of large datasets",
+            "To convert API responses to XML",
+            "To validate API inputs"
+        ],
+        "answer": [
+            "To split responses into pages for easier handling of large datasets"
+        ]
+    },
+    {
+        "question": "Which of the following is a built-in authentication method in Django REST framework?",
+        "options": [
+            "OAuth2Authentication",
+            "JWTAuthentication",
+            "SessionAuthentication",
+            "OAuth1Authentication"
+        ],
+        "answer": [
+            "SessionAuthentication"
+        ]
+    },
+    {
+        "question": "In Django REST framework, which setting controls the default pagination style?",
+        "options": [
+            "DEFAULT_PAGINATION_CLASS",
+            "PAGE_SIZE",
+            "DEFAULT_LIMIT",
+            "PAGINATE_BY"
+        ],
+        "answer": [
+            "DEFAULT_PAGINATION_CLASS"
+        ]
+    },
+    {
+        "question": "Which HTTP status code represents 'Created' and is typically used when a new resource is successfully created?",
+        "options": [
+            "200",
+            "201",
+            "204",
+            "400"
+        ],
+        "answer": [
+            "201"
+        ]
+    },
+    {
+        "question": "What is the purpose of 'throttling' in Django REST framework?",
+        "options": [
+            "To limit the number of requests a user can make within a timeframe",
+            "To cache API responses",
+            "To validate incoming request data",
+            "To manage user authentication"
+        ],
+        "answer": [
+            "To limit the number of requests a user can make within a timeframe"
+        ]
+    },
+    {
+        "question": "Which of the following settings in Django REST framework allows setting permissions on a per-view basis?",
+        "options": [
+            "DEFAULT_PERMISSION_CLASSES",
+            "VIEWSET_PERMISSION_CLASSES",
+            "API_VIEW_PERMISSIONS",
+            "PERMISSION_BY_ROUTE"
+        ],
+        "answer": [
+            "DEFAULT_PERMISSION_CLASSES"
+        ]
+    },
+    {
+        "question": "In Django REST framework, what does the 'HyperlinkedModelSerializer' class do?",
+        "options": [
+            "Creates hyperlinks for API views",
+            "Serializes data with hyperlinks to related resources",
+            "Serializes data in XML format",
+            "Implements custom serializers"
+        ],
+        "answer": [
+            "Serializes data with hyperlinks to related resources"
+        ]
+    },
+    {
+        "question": "What is the purpose of the 'Permission' classes in Django REST framework?",
+        "options": [
+            "To filter querysets",
+            "To control user access to specific views or actions",
+            "To handle pagination",
+            "To manage view performance"
+        ],
+        "answer": [
+            "To control user access to specific views or actions"
+        ]
+    },
+    {
+        "question": "Which of the following classes in Django REST framework is used to define custom validation logic for incoming data?",
+        "options": [
+            "Serializer",
+            "ViewSet",
+            "FilterSet",
+            "Model"
+        ],
+        "answer": [
+            "Serializer"
+        ]
+    },
+    {
+        "question": "Which HTTP method is generally idempotent in RESTful APIs?",
+        "options": [
+            "POST",
+            "GET",
+            "PATCH",
+            "DELETE"
+        ],
+        "answer": [
+            "GET"
+        ]
+    },
+    {
+        "question": "What does the '@api_view' decorator do in Django REST framework?",
+        "options": [
+            "Converts a class-based view to an API view",
+            "Restricts a function to only accept specific HTTP methods",
+            "Adds authentication to a function",
+            "Handles pagination for a function"
+        ],
+        "answer": [
+            "Restricts a function to only accept specific HTTP methods"
+        ]
+    },
+    {
+        "question": "In Django REST framework, which class is used for defining custom filtering logic?",
+        "options": [
+            "FilterSet",
+            "QuerySet",
+            "Permission",
+            "Serializer"
+        ],
+        "answer": [
+            "FilterSet"
+        ]
+    },
+    {
+        "question": "What is the purpose of 'action' decorator in a ViewSet in Django REST framework?",
+        "options": [
+            "To create a custom route for additional functionality",
+            "To define the main actions (GET, POST, PUT) in a view",
+            "To set authentication requirements",
+            "To apply permissions to all actions"
+        ],
+        "answer": [
+            "To create a custom route for additional functionality"
+        ]
+    },
+    {
+        "question": "Which serializer field would you use to represent a one-to-many relationship in Django REST framework?",
+        "options": [
+            "CharField",
+            "ListField",
+            "PrimaryKeyRelatedField",
+            "URLField"
+        ],
+        "answer": [
+            "PrimaryKeyRelatedField"
+        ]
+    },
+    {
+        "question": "Which of these methods would you override to apply custom queryset filtering in Django REST framework?",
+        "options": [
+            "get_queryset()",
+            "get_object()",
+            "get_serializer_class()",
+            "list()"
+        ],
+        "answer": [
+            "get_queryset()"
+        ]
+    },
+    {
+        "question": "In Django REST framework, how do you limit the data returned by a serializer?",
+        "options": [
+            "Use 'fields' or 'exclude' in the Meta class of the serializer",
+            "Set the serializer to read-only",
+            "Disable pagination",
+            "Use 'filter_class' in the view"
+        ],
+        "answer": [
+            "Use 'fields' or 'exclude' in the Meta class of the serializer"
+        ]
+    },
+    {
+        "question": "What does the 'is_valid()' method do in Django REST framework serializers?",
+        "options": [
+            "Saves the data to the database",
+            "Converts the data to JSON",
+            "Checks if input data meets validation rules",
+            "Filters the queryset"
+        ],
+        "answer": [
+            "Checks if input data meets validation rules"
+        ]
+    },
+    {
+        "question": "What does the 'save()' method do in a Django REST framework serializer?",
+        "options": [
+            "Converts data to JSON",
+            "Saves the validated data to the database",
+            "Adds pagination to the data",
+            "Fetches data from the API"
+        ],
+        "answer": [
+            "Saves the validated data to the database"
+        ]
+    },
+    {
+        "question": "Which of the following would you use to define a nested relationship in a Django REST framework serializer?",
+        "options": [
+            "SerializerMethodField",
+            "NestedRelatedField",
+            "PrimaryKeyRelatedField",
+            "NestedSerializer"
+        ],
+        "answer": [
+            "SerializerMethodField"
+        ]
+    },
+    {
+        "question": "How would you specify that a field in a serializer is read-only?",
+        "options": [
+            "Set 'editable=False' in the model",
+            "Add 'read_only=True' in the serializer field",
+            "Use the @read_only decorator",
+            "Specify 'readonly' in the Meta class"
+        ],
+        "answer": [
+            "Add 'read_only=True' in the serializer field"
+        ]
+    },
+    {
+        "question": "What is the purpose of 'token authentication' in Django REST framework?",
+        "options": [
+            "To handle data serialization",
+            "To manage pagination",
+            "To authenticate users with a token instead of credentials on each request",
+            "To apply rate limiting"
+        ],
+        "answer": [
+            "To authenticate users with a token instead of credentials on each request"
+        ]
+    },
+    {
+        "question": "In Django REST framework, which class can you use to apply rate limiting for a view?",
+        "options": [
+            "RateLimitView",
+            "ThrottleClasses",
+            "RateLimitThrottle",
+            "Throttle"
+        ],
+        "answer": [
+            "Throttle"
+        ]
+    },
+    {
+        "question": "Which of the following is a valid HTTP status code for a 'No Content' response?",
+        "options": [
+            "200",
+            "204",
+            "202",
+            "206"
+        ],
+        "answer": [
+            "204"
+        ]
+    },
+    {
+        "question": "How do you set the default renderer in Django REST framework?",
+        "options": [
+            "In the serializer Meta class",
+            "By setting 'DEFAULT_RENDERER_CLASSES' in the settings file",
+            "Using the 'renderer_class' attribute in the view",
+            "Setting 'renderer_type' in the API"
+        ],
+        "answer": [
+            "By setting 'DEFAULT_RENDERER_CLASSES' in the settings file"
+        ]
+    },
+    {
+        "question": "What is the purpose of 'APIView' in Django REST framework?",
+        "options": [
+            "To handle only GET requests",
+            "To define a class-based view for handling REST API requests",
+            "To manage HTML template rendering",
+            "To create querysets"
+        ],
+        "answer": [
+            "To define a class-based view for handling REST API requests"
+        ]
+    },
+    {
+        "question": "What does the '@action' decorator allow in a Django REST framework ViewSet?",
+        "options": [
+            "To create custom methods that can be accessed via specific URLs",
+            "To limit the rate of requests to the ViewSet",
+            "To make the ViewSet read-only",
+            "To automatically handle all CRUD actions"
+        ],
+        "answer": [
+            "To create custom methods that can be accessed via specific URLs"
+        ]
+    },
+    {
+        "question": "How do you specify the fields to be serialized in a Django REST framework ModelSerializer?",
+        "options": [
+            "Define the fields in the 'Meta' class of the ModelSerializer",
+            "Add 'fields' attribute in the view",
+            "Override 'get_fields()' method",
+            "Set 'serialized_fields' in the model"
+        ],
+        "answer": [
+            "Define the fields in the 'Meta' class of the ModelSerializer"
+        ]
+    },
+    {
+        "question": "In Django REST framework, how would you create a custom permission that only allows users who created a resource to edit it?",
+        "options": [
+            "Override the 'has_permission()' method in a custom permission class",
+            "Override the 'has_object_permission()' method in a custom permission class",
+            "Override the 'get_permissions()' method in the view",
+            "Use a 'ReadOnly' permission class in the view"
+        ],
+        "answer": [
+            "Override the 'has_object_permission()' method in a custom permission class"
+        ]
+    },
+    {
+        "question": "What is the difference between 'PrimaryKeyRelatedField' and 'SlugRelatedField' in Django REST framework?",
+        "options": [
+            "'PrimaryKeyRelatedField' represents a relationship using the object's primary key, while 'SlugRelatedField' represents it using a specified field",
+            "'PrimaryKeyRelatedField' is for foreign keys only, while 'SlugRelatedField' is for slugs only",
+            "'PrimaryKeyRelatedField' is for many-to-many relationships, while 'SlugRelatedField' is for one-to-one relationships",
+            "'PrimaryKeyRelatedField' is read-only, while 'SlugRelatedField' allows editing"
+        ],
+        "answer": [
+            "'PrimaryKeyRelatedField' represents a relationship using the object's primary key, while 'SlugRelatedField' represents it using a specified field"
+        ]
+    },
+    {
+        "question": "How would you implement a 'soft delete' in a Django REST framework API so that deleted records are marked as inactive rather than removed from the database?",
+        "options": [
+            "Add an 'is_deleted' field to the model and override the queryset to filter out inactive records",
+            "Set a 'deleted' status in the view and remove the object manually",
+            "Use Django's built-in soft delete function",
+            "Override the serializer's 'delete()' method to prevent deletion"
+        ],
+        "answer": [
+            "Add an 'is_deleted' field to the model and override the queryset to filter out inactive records"
+        ]
+    },
+    {
+        "question": "When using 'GenericAPIView' with mixins in Django REST framework, which method do you override to customize the serializer used for each action (e.g., list, create, retrieve)?",
+        "options": [
+            "get_serializer()",
+            "get_serializer_class()",
+            "get_serializer_context()",
+            "get_object_serializer()"
+        ],
+        "answer": [
+            "get_serializer_class()"
+        ]
+    },
+    {
+        "question": "In a complex application, how can you dynamically filter a queryset based on query parameters (e.g., 'GET /api/items?category=books&price_min=10') in Django REST framework?",
+        "options": [
+            "Use Django filters with a custom filterset and attach it to the view",
+            "Write custom SQL statements",
+            "Override 'perform_query' method in the view",
+            "Filter query parameters directly in the serializer"
+        ],
+        "answer": [
+            "Use Django filters with a custom filterset and attach it to the view"
+        ]
+    },
+    {
+        "question": "How would you create a serializer in Django REST framework that validates an input field against multiple conditions, such as a numeric range and format requirements?",
+        "options": [
+            "Use 'validators' argument in the serializer field with multiple validation functions",
+            "Override the 'validate()' method in the serializer",
+            "Set validation criteria in the model",
+            "Use the Meta class of the serializer to set validations"
+        ],
+        "answer": [
+            "Use 'validators' argument in the serializer field with multiple validation functions"
+        ]
+    },
+    {
+        "question": "How would you implement a custom throttling mechanism in Django REST framework to throttle requests based on complex business rules, such as user roles or time of day?",
+        "options": [
+            "Define a custom throttle class inheriting from 'BaseThrottle' and implement custom logic in 'allow_request()' method",
+            "Use the 'DEFAULT_THROTTLE_CLASSES' setting to add custom rules",
+            "Override the 'throttle_rate' method in the view",
+            "Use Django’s 'TimeThrottle' class with configuration"
+        ],
+        "answer": [
+            "Define a custom throttle class inheriting from 'BaseThrottle' and implement custom logic in 'allow_request()' method"
+        ]
+    },
+    {
+        "question": "What is the main advantage of using the 'HyperlinkedModelSerializer' instead of 'ModelSerializer' in a Django REST framework API?",
+        "options": [
+            "It represents relationships with hyperlinks rather than primary keys, making APIs more navigable",
+            "It makes serializers faster and more efficient",
+            "It supports automatic validation for related fields",
+            "It allows for multiple serializers in a single view"
+        ],
+        "answer": [
+            "It represents relationships with hyperlinks rather than primary keys, making APIs more navigable"
+        ]
+    },
+    {
+        "question": "How can you return paginated responses for a complex queryset in Django REST framework without using the default pagination classes?",
+        "options": [
+            "Manually paginate the queryset in the view and use 'Paginator' from Django",
+            "Use custom pagination logic in the serializer",
+            "Implement a new pagination scheme in the model",
+            "Override the 'queryset' attribute in the view"
+        ],
+        "answer": [
+            "Manually paginate the queryset in the view and use 'Paginator' from Django"
+        ]
+    },
+    {
+        "question": "When defining a custom renderer in Django REST framework, which method should be overridden to generate a custom response format, such as XML or a specialized JSON structure?",
+        "options": [
+            "render()",
+            "get_response()",
+            "format_output()",
+            "generate_response()"
+        ],
+        "answer": [
+            "render()"
+        ]
+    },
+    {
+        "question": "How would you implement custom pagination in Django REST framework to support page sizes dynamically set by the client in the request?",
+        "options": [
+            "Override the 'paginate_queryset' method in a custom pagination class",
+            "Use 'DEFAULT_PAGINATION_CLASS' in settings and dynamically set 'page_size' in the request",
+            "Modify the serializer to handle pagination dynamically",
+            "Override the 'get_paginated_response' method in the view"
+        ],
+        "answer": [
+            "Override the 'paginate_queryset' method in a custom pagination class"
+        ]
+    },
+    {
+        "question": "In Django REST framework, how would you handle API versioning, so that different API versions can coexist (e.g., /api/v1/ and /api/v2/)?",
+        "options": [
+            "Use the 'VERSIONING' setting in the Django settings file and add versioning to the URL structure",
+            "Use the 'accept-version' header and create custom logic to handle versions",
+            "Use Django middleware to manage versions",
+            "Change URL patterns for each version without specific version control"
+        ],
+        "answer": [
+            "Use the 'VERSIONING' setting in the Django settings file and add versioning to the URL structure"
+        ]
+    },
+    {
+        "question": "How can you handle complex, nested data structures in Django REST framework serializers without making the serializer too cumbersome?",
+        "options": [
+            "Use 'NestedSerializer' and custom fields to handle nested data structures",
+            "Use 'PrimaryKeyRelatedField' for all relationships and only serialize the main model",
+            "Create separate views for each level of nesting",
+            "Manually flatten nested structures before serialization"
+        ],
+        "answer": [
+            "Use 'NestedSerializer' and custom fields to handle nested data structures"
+        ]
+    },
+    {
+        "question": "In Django REST framework, how would you handle a situation where you need to apply different validation logic depending on whether a user is an admin or a regular user?",
+        "options": [
+            "Override the 'validate' method in the serializer and check the user's role",
+            "Use the 'permission_classes' to differentiate access control",
+            "Use Django's built-in validators with role-specific logic",
+            "Use a custom validator in the model layer"
+        ],
+        "answer": [
+            "Override the 'validate' method in the serializer and check the user's role"
+        ]
+    },
+    {
+        "question": "In Django REST framework, how can you handle authentication using third-party OAuth2 providers (e.g., Google, Facebook) while also supporting traditional username/password authentication?",
+        "options": [
+            "Use 'OAuth2Authentication' alongside 'SessionAuthentication' in the settings file",
+            "Create a custom authentication class that supports both OAuth2 and session authentication",
+            "Use Django's built-in authentication system for username/password and implement OAuth2 in views",
+            "Configure OAuth2 in the settings file and disable session authentication"
+        ],
+        "answer": [
+            "Create a custom authentication class that supports both OAuth2 and session authentication"
+        ]
+    },
+    {
+        "question": "How would you implement a rate-limiting feature in Django REST framework that restricts the number of requests based on user roles (e.g., admins can make more requests than regular users)?",
+        "options": [
+            "Use Django REST framework's 'Throttle' class and override the 'allow_request' method with role-based logic",
+            "Use the 'DEFAULT_THROTTLE_RATES' setting to define limits for different user roles",
+            "Implement custom middleware to track the number of requests for each user role",
+            "Set rate limits for each view directly using custom decorators"
+        ],
+        "answer": [
+            "Use Django REST framework's 'Throttle' class and override the 'allow_request' method with role-based logic"
+        ]
+    },
+    {
+        "question": "How would you implement a custom exception handling mechanism in Django REST framework that returns a custom error response format for all unhandled exceptions?",
+        "options": [
+            "Override the 'handle_exception' method in a custom exception handler class",
+            "Use Django's built-in 'ErrorView' and modify it to return custom error responses",
+            "Create custom middleware to catch exceptions and format the response",
+            "Use Django's 'logging' settings to log all exceptions and create custom views for error handling"
+        ],
+        "answer": [
+            "Override the 'handle_exception' method in a custom exception handler class"
+        ]
+    },
+    {
+        "question": "In Django REST framework, how would you implement conditional updates in an API where the resource should only be updated if a certain condition is met (e.g., only update if the current version is older than the new version)?",
+        "options": [
+            "Override the 'update' method in the viewset and check the condition before saving",
+            "Use a custom 'validate' method in the serializer to enforce the condition",
+            "Use Django's 'pre_save' signal to validate the condition before updating",
+            "Apply the condition in the model's 'save' method"
+        ],
+        "answer": [
+            "Override the 'update' method in the viewset and check the condition before saving"
+        ]
+    },
+    {
+        "question": "What is the purpose of the 'extra_kwargs' argument in Django REST framework serializers, and how can it be used to add additional constraints on fields dynamically?",
+        "options": [
+            "'extra_kwargs' allows for adding extra validation rules or settings to specific serializer fields",
+            "'extra_kwargs' allows fields to be marked as required dynamically based on the user role",
+            "'extra_kwargs' is used to manage query parameters in the serializer",
+            "'extra_kwargs' can only be used for adding custom serializers to the response"
+        ],
+        "answer": [
+            "'extra_kwargs' allows for adding extra validation rules or settings to specific serializer fields"
+        ]
+    },
+    {
+        "question": "How can you implement a custom authentication mechanism where the user authentication is done using a custom header and token format (e.g., 'Authorization: CustomToken <token>') in Django REST framework?",
+        "options": [
+            "Create a custom authentication class inheriting from 'BaseAuthentication' and override 'authenticate' method",
+            "Use Django's built-in 'Authentication' classes and configure headers manually",
+            "Override the 'authenticate' method in the view to process custom headers",
+            "Create a middleware to check for the custom header before routing the request"
+        ],
+        "answer": [
+            "Create a custom authentication class inheriting from 'BaseAuthentication' and override 'authenticate' method"
+        ]
+    },
+    {
+        "question": "In Django REST framework, how can you ensure that a serializer validates and formats an input field (e.g., 'email') only if the field is not empty, without making it required?",
+        "options": [
+            "Override the 'validate_email' method in the serializer to handle empty values separately",
+            "Use the 'required=False' argument and a custom validator for conditional validation",
+            "Use the 'default' argument to provide a fallback if the field is empty",
+            "Use the 'blank=True' option in the serializer field with a custom 'clean' method"
+        ],
+        "answer": [
+            "Use the 'required=False' argument and a custom validator for conditional validation"
+        ]
+    },
+    {
+        "question": "What is the advantage of using a 'ModelViewSet' over a 'ViewSet' in Django REST framework when working with Django models?",
+        "options": [
+            "'ModelViewSet' automatically provides CRUD operations for the model, reducing boilerplate code",
+            "'ModelViewSet' allows for more flexible queryset filtering than 'ViewSet'",
+            "'ViewSet' is for custom actions, while 'ModelViewSet' only supports predefined actions",
+            "'ModelViewSet' provides built-in pagination support, while 'ViewSet' does not"
+        ],
+        "answer": [
+            "'ModelViewSet' automatically provides CRUD operations for the model, reducing boilerplate code"
+        ]
+    },
+    {
+        "question": "How can you implement a dynamic queryset filtering system in Django REST framework where each query parameter corresponds to a model field, but not all fields are guaranteed to be present in the request?",
+        "options": [
+            "Use Django's 'Q' objects to combine filters dynamically and filter based on available query parameters",
+            "Override the 'get_queryset' method and filter fields manually based on the request",
+            "Use Django's built-in 'filter' method to process each field conditionally",
+            "Write custom middleware to apply filters to the request before reaching the view"
+        ],
+        "answer": [
+            "Use Django's 'Q' objects to combine filters dynamically and filter based on available query parameters"
+        ]
+    },
+    {
+        "question": "How would you efficiently handle large responses in Django REST framework by returning a paginated response only if the dataset exceeds a certain size (e.g., more than 1000 records)?",
+        "options": [
+            "Override the 'list' method in the view and manually check the length of the queryset before deciding on pagination",
+            "Use Django REST framework's built-in pagination and set 'pagination_class' dynamically based on dataset size",
+            "Use 'Paginator' in the view to apply pagination based on conditions",
+            "Modify the queryset to apply pagination only when necessary, using custom filtering"
+        ],
+        "answer": [
+            "Override the 'list' method in the view and manually check the length of the queryset before deciding on pagination"
+        ]
+    },
+    {
+        "question": "How would you implement a feature in Django REST framework where users can upload multiple files in a single API request, and each file is validated independently before being stored?",
+        "options": [
+            "Use 'FileField' in the serializer and ensure 'many=True' is specified to handle multiple file uploads",
+            "Override the 'validate' method in the serializer and handle each file validation manually",
+            "Use a custom viewset to process each file independently, without serializing the entire request",
+            "Configure the model to handle multiple file fields and use a custom validator for each file"
+        ],
+        "answer": [
+            "Use 'FileField' in the serializer and ensure 'many=True' is specified to handle multiple file uploads"
+        ]
+    },
+    {
+        "question": "In Django REST framework, how would you implement the ability for a view to return different types of response formats (e.g., JSON, XML) based on the 'Accept' header in the request?",
+        "options": [
+            "Use 'DEFAULT_RENDERER_CLASSES' in the settings and add custom renderers for each format",
+            "Override the 'get_renderer_classes()' method in the view to return the appropriate renderer based on the 'Accept' header",
+            "Use the 'response_format' setting to configure the output format for each view",
+            "Set up the renderer class manually in each view, checking the 'Accept' header in the request"
+        ],
+        "answer": [
+            "Override the 'get_renderer_classes()' method in the view to return the appropriate renderer based on the 'Accept' header"
+        ]
+    },
+    {
+        "question": "In Django REST framework, how would you implement a custom filtering mechanism that supports 'OR' logic between multiple fields in a complex query (e.g., 'GET /api/items?title=book&author=john')?",
+        "options": [
+            "Override the 'get_queryset()' method and combine Q objects for OR logic between fields",
+            "Use Django REST framework's 'FilterSet' and apply 'OR' logic using the 'filter' method",
+            "Use a custom queryset in the view and filter using multiple filter parameters",
+            "Write a custom decorator to manage the 'OR' logic for filters in the view"
+        ],
+        "answer": [
+            "Override the 'get_queryset()' method and combine Q objects for OR logic between fields"
+        ]
+    },
+    {
+        "question": "How can you handle asynchronous tasks in Django REST framework, such as background processing of a long-running task, while still responding to the client promptly?",
+        "options": [
+            "Use Django channels and Celery to manage asynchronous task processing in the background",
+            "Use the 'asyncio' module to run tasks asynchronously within the view",
+            "Offload the task to a separate thread using Django's built-in threading functionality",
+            "Use Django's signal system to delegate tasks to background workers"
+        ],
+        "answer": [
+            "Use Django channels and Celery to manage asynchronous task processing in the background"
+        ]
+    },
+    {
+        "question": "How would you create a custom method in a Django REST framework ViewSet that accepts a POST request and processes data differently depending on the request content type (e.g., JSON vs. XML)?",
+        "options": [
+            "Use the '@action' decorator to define a custom method and handle content type manually in the view method",
+            "Override the 'perform_create' method in the ViewSet to handle content types dynamically",
+            "Override the 'create' method and check the 'Content-Type' header to adjust request parsing",
+            "Configure 'content_type' settings in the serializer to handle different formats"
+        ],
+        "answer": [
+            "Use the '@action' decorator to define a custom method and handle content type manually in the view method"
+        ]
+    },
+    {
+        "question": "How would you implement a mechanism in Django REST framework that automatically expires or invalidates certain records (e.g., temporary promotional codes) after a specific time period, using background jobs or periodic tasks?",
+        "options": [
+            "Use Django signals to track creation and expiry time, and implement a periodic task with Celery to remove expired records",
+            "Use a custom field in the model to handle expiry logic and check expiration before saving the object",
+            "Schedule a cron job to periodically check the database and invalidate expired records",
+            "Use Django's cache framework to store temporary records with a set expiry time"
+        ],
+        "answer": [
+            "Use Django signals to track creation and expiry time, and implement a periodic task with Celery to remove expired records"
+        ]
+    }
+]

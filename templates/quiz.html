@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <style>
+        .card.correct { background-color: #d4edda; }  /* Green for correct */
+        .card.wrong { background-color: #f8d7da; }   /* Red for wrong */
+    </style>
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="card" id="quizCard">
+            <div class="card-body">
+                <h5 class="card-title">{{ question.question }}</h5>
+                <form id="quizForm">
+                    {% for option in question.options %}
+                        <div class="form-check">
+                            {% if question.answer | length > 1 %}
+                            <input class="form-check-input" type="checkbox" name="options" value="{{ option }}" id="option{{ loop.index }}">
+                            {% else %}
+                            <input class="form-check-input" type="radio" name="options" value="{{ option }}" id="option{{ loop.index }}">
+                            {% endif %}
+                            <label class="form-check-label" for="option{{ loop.index }}">
+                                {{ option }}
+                            </label>
+                        </div>
+                    {% endfor %}
+                </form>
+                <button type="button" class="btn btn-primary mt-3" id="submitAnswer">Submit</button>
+                <button type="button" class="btn btn-secondary mt-3" id="previousButton">Previous</button>
+                <button type="button" class="btn btn-info mt-3" id="nextButton" >Next</button>
+                <div id="feedback" class="mt-3"></div>
+                <div class="mt-3">
+                    <span>Correct: {{ score }}</span> | <span>Wrong Attempts: {{ wrong_attempts }}</span>
+                    <p>Question {{ question_index + 1 }} of {{ total_questions }}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let questionTimeout;
+
+        $('#submitAnswer').click(function() {
+            let selectedOptions = [];
+            $("input[name='options']:checked").each(function() {
+                selectedOptions.push($(this).val());
+            });
+
+            $.ajax({
+                url: '/check_answer',
+                type: 'POST',
+                contentType: 'application/json',
+                data: JSON.stringify({ selected_options: selectedOptions }),
+                success: function(data) {
+                    if (data.result === 'correct') {
+                        $('#feedback').text('Correct! Moving to the next question...').css('color', 'green');
+                        $('#quizCard').addClass("correct").removeClass("wrong"); 
+                        $('#nextButton').prop('disabled', false);
+
+                        // Advance after seconds
+                        questionTimeout = setTimeout(function() {
+                            $('#nextButton').click();
+                        }, 1000);
+                    } else {
+                        $('#feedback').text('Incorrect, try again!').css('color', 'red');
+                        $('#quizCard').addClass("wrong").removeClass("correct"); 
+                    }
+                }
+            });
+        });
+
+        $('#nextButton').click(function() {
+            $.post('/next', function() {
+                window.location.reload();
+            });
+        });
+
+        $('#previousButton').click(function() {
+            clearTimeout(questionTimeout);
+            $.post('/previous', function() {
+                window.location.reload();
+            });
+        });
+    </script>
+</body>
+</html>

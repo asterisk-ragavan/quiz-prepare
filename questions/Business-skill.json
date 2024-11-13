@@ -1,0 +1,731 @@
+[
+    {
+        "question": "Don't send advance questions is one of the tips to conduct great interviews.  Which of the following statements stand as reasons for it? Select all that apply. ",
+        "options": [
+            "Responses would sound very scripted and may seem written by a committee. ",
+            "Interview can be as good as a face-to-face, candid interaction and the discussion may sound informal. ",
+            "Asking questions in advance eliminates the scope for follow-up questions. ",
+            "Interviewee might lose interest in the discussion as the questions are already disclosed. ",
+            "Asking questions in advance can make the interviewee feel quite nervous about the interview. "
+        ],
+        "answer": [
+            "Responses would sound very scripted and may seem written by a committee.",
+            "Interview can be as good as a face-to-face, candid interaction and the discussion may sound informal."
+        ]
+    },
+    {
+        "question": "what characteristics should an organisation adopt to become a devops organization. ",
+        "options": [
+            "Focus on automation. ",
+            "Focus on Product thinking. ",
+            "Focus on Fail fast. "
+        ],
+        "answer": [
+            "Focus on automation.",
+            "Focus on Product thinking.",
+            "Focus on Fail fast strategy."
+        ]
+    },
+    {
+        "question": "Identify the methods to determine root causes of a problem.  Select all that apply?",
+        "options": [
+            "Euler Method. ",
+            "Regression testing. ",
+            "Picard's Method. ",
+            "Five Whys. ",
+            "Fishbone diagram. "
+        ],
+        "answer": [
+            "Regression testing.",
+            "Five Whys.",
+            "Fishbone diagram."
+        ]
+    },
+    {
+        "question": "An audience captivating story should have details that will allow them to actually see, hear, feel, and smell the different stimuli in your story world.  It should also create picture of the events in the story which shall remain in audience's a mind forever. ",
+        "options": [
+            "Sensory/Interesting. ",
+            "Interesting/Clear. ",
+            "Sensory/Mental. ",
+            "Sensory/Clear. ",
+            "Interesting/Mental. "
+        ],
+        "answer": [
+            "Sensory/Mental."
+        ]
+    },
+    {
+        "question": "You over-hear your boss giving the client the contact details of a person for some information.  You know that this person is no longer responsible for that information.  The client is still in the office, what, if anything, should you do? ",
+        "options": [
+            "Give the client the correct name, and explain that your boss was not aware of this change. ",
+            "Avoid the situation. ",
+            "Quickly take your boss aside and provide the correct name. ",
+            "Wait until the client leaves, and then give your boss the correct information. "
+        ],
+        "answer": [
+            "Quickly take your boss aside and provide the correct name."
+        ]
+    },
+    {
+        "question": "What characteristics should an organization adopt to become a Devops organization?  Select all that apply.",
+        "options": [
+            "Focus on problem avoidance. ",
+            "Focus on product thinking. ",
+            "Focus on individual work over teamwork. ",
+            "Focus on fail fast strategy. ",
+            "Focus on delayed learning strategy. ",
+            "Focus on automation. "
+        ],
+        "answer": [
+            "Focus on product thinking.",
+            "Focus on fail fast strategy.",
+            "Focus on automation."
+        ]
+    },
+    {
+        "question": "Unresolved conflict often results in loss of _______ and creation of barriers to ______ and collaboration. ",
+        "options": [
+            "Productivity/Co-operation. ",
+            "Productivity/Communication. ",
+            "Maturity/Communication. ",
+            "Maturity/Understanding. ",
+            "Maturity/Co-operation. "
+        ],
+        "answer": [
+            "Productivity/Co-operation."
+        ]
+    },
+    {
+        "question": "There is always something that stops people from finding a successful solution to a problem.  From among the given choices, identify the barriers to problem solving.  Select all that apply.",
+        "options": [
+            "Natural calamity. ",
+            "Irrelevant information. ",
+            "Lack of commitment. ",
+            "Functional fixedness. ",
+            "Mental set. ",
+            "Lack of resource. "
+        ],
+        "answer": [
+            "Irrelevant information.",
+            "Lack of commitment.",
+            "Functional fixedness.",
+            "Mental set.",
+            "Lack of resource."
+        ]
+    },
+    {
+        "question": "In Delegating, the first step is called Directions.  What action does a manager perform in this step?",
+        "options": [
+            "Lists out the negative consequences to the employee if he/she fails. ",
+            "Provides a clear picture of what 'done looks like.",
+            "States clearly the level of authority the employee has in making a decision. ",
+            "Shares with the employee a step-by-step list of actions that he/she. "
+        ],
+        "answer": [
+            "Provides a clear picture of what done looks like."
+        ]
+    },
+    {
+        "question": "What are the different ways in which a problem can be defined?  Select all that apply.",
+        "options": [
+            "Differentiate fact from opinion. ",
+            "Determine who was responsible for the problem. ",
+            "Specify underlying causes. ",
+            "State the problem specifically. ",
+            "Do not consult anyone for information. ",
+            "Analyze how the problem can be sub-divided for arriving. "
+        ],
+        "answer": [
+            "Differentiate fact from opinion.",
+            "Specify underlying causes.",
+            "State the problem specifically.",
+            "Analyze how the problem can be sub-divided for arriving."
+        ]
+    },
+    {
+        "question": "It is a method that is credited to the founder of Toyota Industries, Sakichi Toyoda.  Its first appearance was in the field of engineering.  Identify the method from the given options. ",
+        "options": [
+            "Execution. ",
+            "Project-based Learning. ",
+            "Root Cause Analysis. ",
+            "Implementation. "
+        ],
+        "answer": [
+            "Root Cause Analysis."
+        ]
+    },
+    {
+        "question": "The _______ seeks to identify the big picture and all of its components. ",
+        "options": [
+            "Domain-specific Strategy. ",
+            "Scientific Strategy. ",
+            "Top-Down Strategy. ",
+            "Bottom-Up Strategy. "
+        ],
+        "answer": [
+            "Top-Down Strategy."
+        ]
+    },
+    {
+        "question": "We use _______ to gain people's compliance to influence and this strategy is called social proof, which is an _______ to show how many people have already complied with our request. ",
+        "options": [
+            "Collaboration/Example. ",
+            "Endorsement / Example. ",
+            "Emotional distance / Social validation. ",
+            "Emotional distance/Technique. ",
+            "Social validation / Technique. "
+        ],
+        "answer": [
+            "Social validation / Technique."
+        ]
+    },
+    {
+        "question": "Which of the following is likely to be perceived as NOT being a team player's quality? ",
+        "options": [
+            "Give opinions that pleases team members even if it is untrue. ",
+            "Establish trust. ",
+            "Avoid backstabbing. ",
+            "Share the glory. "
+        ],
+        "answer": [
+            "Give opinions that pleases team members even if it is untrue."
+        ]
+    },
+    {
+        "question": "Using I language when resolving conflicts gives you an opportunity to",
+        "options": [
+            "Take ownership of your feelings and thoughts. ",
+            "Take charge of the situation by making the other person defensive. ",
+            "Make a statement that you are right and the other person is wrong. ",
+            "Promote your point of view. "
+        ],
+        "answer": [
+            "Take ownership of your feelings and thoughts."
+        ]
+    },
+    {
+        "question": "Principles of the Negotiation mindset are:",
+        "options": [
+            "Curiosity and creativity. ",
+            "To find a way to disagreement. ",
+            "To focus on collaboration. ",
+            "Flexible enough to adapt to change. ",
+            "To find a way to agreement. "
+        ],
+        "answer": [
+            "Curiosity and creativity.",
+            "To focus on collaboration.",
+            "Flexible enough to adapt to change.",
+            "To find a way to agreement."
+        ]
+    },
+    {
+        "question": "You are working in an agile project/environment with tight deadlines.  You are given a task and are expected to complete it within a stipulated time.  After some time, another task gets assigned to you, which also has the same priority.  How will you manage completing both the tasks with the same timelines? ",
+        "options": [
+            "Apply for sick leave. ",
+            "Resign the current job and apply for new job. ",
+            "Ask for a release. ",
+            "Suggest that the second task be assigned to your colleague. ",
+            "Use Project Management template to find a way to complete both tasks effectively. ",
+            "Refuse to accept the second task. "
+        ],
+        "answer": [
+            "Use Project Management template to find a way to complete both tasks effectively."
+        ]
+    },
+    {
+        "question": "Which of these are best examples of accountability at work?  Select all that apply.",
+        "options": [
+            "ACEO who is accountable to employees' rules. ",
+            "Employees being consistent in doing the right thing in all aspects pertaining to their job. ",
+            "A middle manager who is accountable to a competitor. ",
+            "Employees completing any tasks that have been designated to them. ",
+            "A board of directors that is accountable to line workers. "
+        ],
+        "answer": [
+            "Employees being consistent in doing the right thing in all aspects pertaining to their job.",
+            "Employees completing any tasks that have been designated to them."
+        ]
+    },
+    {
+        "question": "Your team is faced to decide on a very controversial and emotionally charged issue.  Your supervisor has asked everyone in the team to express the views.  What should be your first thought in this situation? ",
+        "options": [
+            "It is good to express my true feelings without any fear of reprisal. ",
+            "In majority of cases, it is best not to let my true feelings. ",
+            "How open am I depends on the issue and the people around me at that point of time. ",
+            "I try to be vulnerable in sensitive situations like these, so I step back. "
+        ],
+        "answer": [
+            "How open am I depends on the issue and the people around me at that point of time."
+        ]
+    },
+    {
+        "question": "To identify a problem, one should",
+        "options": [
+            "Look for unhappy customers. ",
+            "Compare one set of standards or goals to a second set of standards or goals. ",
+            "Use intuition to see that things do not look right. ",
+            "Compare the current state of affairs with some standard or desired future state. "
+        ],
+        "answer": [
+            "Compare one set of standards or goals to a second set of standards or goals.",
+            "Compare the current state of affairs with some standard or desired future state."
+        ]
+    },
+    {
+        "question": "Client was not very happy with the outcome as it did not meet the requirement as given to the developers.  Developers state that something went wrong during the production phase.  What happened in this situation? Select all that apply.",
+        "options": [
+            "Client lacked clear vision. ",
+            "Both developer and production team lacked collaboration. ",
+            "Developers team was passing the buck to cover up their mistake. ",
+            "Team lacks groupthink. ",
+            "Team lacks Devops mindset. "
+        ],
+        "answer": [
+            "Client lacked clear vision.",
+            "Both developer and production team lacked collaboration.",
+            "Developers team was passing the buck to cover up their mistake.",
+            "Team lacks Devops mindset."
+        ]
+    },
+    {
+        "question": "Agile promotes one of the following options. Choose the correct option. ",
+        "options": [
+            "EDUF-Enough Design Up Front. ",
+            "ONDOF-No Design Up Front. ",
+            "ODDUF-Detailed Design Up Front. ",
+            "OBDUF-Big Design Up Front. "
+        ],
+        "answer": [
+            "EDUF-Enough Design Up Front."
+        ]
+    },
+    {
+        "question": "Given below are characteristics of an effective work group, except one.  Identify the option that is NOT considered as a characteristics of an effective work group. ",
+        "options": [
+            "A sense of commitment by team members to their own goals and objectives. ",
+            "The resolution of conflict by members themselves. ",
+            "The open expression of feelings and disagreements. ",
+            "A belief in shared aims and objectives. "
+        ],
+        "answer": [
+            "A sense of commitment by team members to their own goals and objectives."
+        ]
+    },
+    {
+        "question": "Thomas-Kilmann model is a barometer of",
+        "options": [
+            "Influencing style. ",
+            "Negotiation style. ",
+            "Decision Making style. ",
+            "Conflict Resolution style. "
+        ],
+        "answer": [
+            "Conflict Resolution style."
+        ]
+    },
+    {
+        "question": "What are some of the steps you can take to identify stakeholders?  Select all that apply.",
+        "options": [
+            "Communicate and observe. ",
+            "Observe and analyze. ",
+            "Analyze and communicate. ",
+            "Take time to review who will own benefits and be affected by dis benefits. ",
+            "Prioritize and communicate. "
+        ],
+        "answer": [
+            "Communicate and observe.",
+            "Observe and analyze.",
+            "Analyze and communicate.",
+            "Take time to review who will own benefits and be affected by dis benefits."
+        ]
+    },
+    {
+        "question": "Conflicts lead to creating problems within a team.  Which of the following are characteristics of conflict? ",
+        "options": [
+            "Perceive incompatible goals. ",
+            "Share belief thoughts. ",
+            "Express feelings. ",
+            "Share independent thoughts. ",
+            "Perceive interference for outside parties. "
+        ],
+        "answer": [
+            "Perceive incompatible goals.",
+            "Express feelings."
+        ]
+    },
+    {
+        "question": "Cognitive blocks are our ways of _______ and _______.  These contribute to how we approach and carry out problem solving, leading to barriers. ",
+        "options": [
+            "Feeling/Sensitizing. ",
+            "Explaining/Sensitizing. ",
+            "Analyzing/Thinking. ",
+            "Thinking/Feeling. ",
+            "Analyzing/Sensitizing. "
+        ],
+        "answer": [
+            "Analyzing/Thinking."
+        ]
+    },
+    {
+        "question": "You are a Project Leader.  You see one of your team lead talk in abusive way to some of the junior team members which is against organization culture.  You feel this behavior is not at all acceptable and its high time to apprise this team member about the same and ensure that he talks to everyone in team in polite manner.  How will you achieve this keeping in mind that the team member is very good technically and hence he feels he has an upper hand over others in the team? ",
+        "options": [
+            "You will tell the team lead about the wrong behavior and ask him to stop talking to juniors in abusive way whenever you catch him doing so. ",
+            "For the time being you will ignore the behavior of the team lead as he is a critical resource. ",
+            "You will start a culture of upward feedback and ask the team for anonymous feedback, both yourself and other leads.  Mass feedback should serve as a proof to influence the team lead. ",
+            "You will ask the team lead to conduct a session on Organizational values and behavioral conduct for the team. "
+        ],
+        "answer": [
+            "You will start a culture of upward feedback and ask the team for anonymous feedback, both yourself and other leads.  Mass feedback should serve as a proof to influence the team lead. "
+        ]
+    },
+    {
+        "question": "The hiddenness and personal nature of trust can be a problem for relationships, teams or organizations. ",
+        "options": [
+            "FALSE. ",
+            "TRUE. "
+        ],
+        "answer": [
+            "TRUE."
+        ]
+    },
+    {
+        "question": "How does lengthening our perspectives as part of problem solving help us? Select all that apply.",
+        "options": [
+            "Creating long term impact on the decisions made. ",
+            "Creating short term impact on the decisions made. ",
+            "Increasing productivity over time. ",
+            "Identifying our fixed beliefs. ",
+            "Focusing on immediate consequences. "
+        ],
+        "answer": [
+            "Creating long term impact on the decisions made.",
+            "Increasing productivity over time.",
+            "Identifying our fixed beliefs."
+        ]
+    },
+    {
+        "question": "In order to achieve results, what should we make the audience agree to?  Select all that apply",
+        "options": [
+            "There may still be points of contention, but in principle they agree that we are on the nigh track. ",
+            "Make them agree to at least two to three points in order of priority to move on. ",
+            "Let them get clarified about the business requirement document. ",
+            "Let them agree to all the points before moving ahead. ",
+            "Start all over again until there is agreement on each and every point. "
+        ],
+        "answer": [
+            "There may still be points of contention, but in principle they agree that we are on the nigh track."
+        ]
+    },
+    {
+        "question": "Ryan delegated some of his tasks to his colleagues.  He carefully explained the tasks to be performed and the performance standards by which the work would be judged.  How should Ryan follow up with his colleagues? Select all that apply.",
+        "options": [
+            "He should set up a due date for the tasks and email reminders along the way. ",
+            "He should monitor the employee's progress daily correcting any performance errors immediately. ",
+            "He should make himself available to answer further questions and provide additional training if necessary. ",
+            "He should appoint another senior employee to monitor the employee's progress every day. ",
+            "He should set a due date and allow the employee space to complete the task without his interference. "
+        ],
+        "answer": [
+            "He should set up a due date for the tasks and email reminders along the way.",
+            "He should make himself available to answer further questions and provide additional training if necessary.",
+            "He should set a due date and allow the employee space to complete the task without his interference."
+        ]
+    },
+    {
+        "question": "That project looks challenging, and I will lead it is an example of _______ and Failure is the limit of my abilities is an example of _______. ",
+        "options": [
+            "Devops mindset/Agile mindset. ",
+            "Agile mindset/Devops mindset. ",
+            "Agile mindset/Growth mindset. ",
+            "Fixed mindset/Growth mindset. ",
+            "Growth mindset/fixed mindset. "
+        ],
+        "answer": [
+            "Growth mindset/fixed mindset."
+        ]
+    },
+    {
+        "question": "Given below are a few statements.  Identify the ones that are suggestions for building good co-worker relationships.  Select all that apply.",
+        "options": [
+            "Be a team player. ",
+            "Focus on one's own goals and create personal agendas. ",
+            "Be a good mentor and mentee. ",
+            "Maintain honest and open relationships. ",
+            "Openly share problems and progress and avoid smoothing as a collaborative tactic. ",
+            "Make other people feel important. "
+        ],
+        "answer": [
+            "Be a team player.",
+            "Be a good mentor and mentee.",
+            "Maintain honest and open relationships.",
+            "Make other people feel important."
+        ]
+    },
+    {
+        "question": "Choose the options that indicate that agile is working for your organization and that your efforts are succeeding.  Select all that apply.",
+        "options": [
+            "More allocation of resources on low value products. ",
+            "A decrease in participation of stakeholders in agile meetings.  For example, during the sprint demo. ",
+            "An increase in product quality & value delivery. ",
+            "Increased cycle time for hypothesis validation. ",
+            "An increase in team velocity. "
+        ],
+        "answer": [
+            "An increase in product quality & value delivery.",
+            "An increase in team velocity."
+        ]
+    },
+    {
+        "question": "Vicky overheard two members of the senior management discussing how the director had decided to enter into a new market, saying they would test out this field by first completing a small number of projects with an internal team.  Vicky thought with excitement that this could be his big break.  If he could get on the initial project team and the organization decided to invest in this new niche, in all possibility he could gain a promotion.  Vicky spent the next few days slipping into conversations snippets of information relating to this market.  Even in team meetings, Vicky would bring up this topic, highlighting his knowledge.  A couple of weeks later, one of the senior management team came to meet Vicky's line manager to discuss putting together a team for a new specialist project.  When the subject came up, the manager asked his team members if anyone had any expertise around it.  Several people gave Vicky's name, and Vicky was immediately recruited for the project team.  To which principle does the above passage refer? ",
+        "options": [
+            "Persuasion. ",
+            "Consistency Reciprocity. ",
+            "Social Proof. ",
+            "Authority. ",
+            "Liking. "
+        ],
+        "answer": [
+            "Social Proof."
+        ]
+    },
+    {
+        "question": "Breaking down a problem into its constituent parts during team discussion is one of the following steps in Standard Agenda?  Identify the correct step. ",
+        "options": [
+            "Analyzing the problem. ",
+            "Evaluating the solution. ",
+            "Identification of the problem. ",
+            "Criteria development. "
+        ],
+        "answer": [
+            "Analyzing the problem."
+        ]
+    },
+    {
+        "question": "For connecting emotionally, you need to reach the . ",
+        "options": [
+            "Heart. ",
+            "Stomach. ",
+            "Lungs. ",
+            "Brain. "
+        ],
+        "answer": [
+            "Heart."
+        ]
+    },
+    {
+        "question": " is a point made with reason and data as the basis. ",
+        "options": [
+            "Logos. ",
+            "Ethos. ",
+            "Rhetoric. ",
+            "Pathos. "
+        ],
+        "answer": [
+            "Logos."
+        ]
+    },
+    {
+        "question": "My family doctor said that he would be performing a blood test on me when I visit him today.  I know it will be painful.  On which of the following assumptions does the above argument depend? ",
+        "options": [
+            "The needle will leave a bruise. ",
+            "The doctor will have a hard time finding the patient's vein. ",
+            "In the past, this patient has experienced pain with the family doctor. ",
+            "The use of a needle always causes pain in the patient. "
+        ],
+        "answer": [
+            "The use of a needle always causes pain in the patient."
+        ]
+    },
+    {
+        "question": "You meet with an acquaintance of yours and he/she asks you How is business?, and you say, Okay.  What type of communication has taken place between both of you? ",
+        "options": [
+            "Fact. ",
+            "None of the options are correct. ",
+            "Cliché. ",
+            "Feeling. "
+        ],
+        "answer": [
+            "Cliché."
+        ]
+    },
+    {
+        "question": "Teams are effective for complex tasks because they produce a great number of ideas, and commitment to the decision. ",
+        "options": [
+            "TRUE. ",
+            "False. "
+        ],
+        "answer": [
+            "TRUE."
+        ]
+    },
+    {
+        "question": "Which of the following statement about conflict is true? ",
+        "options": [
+            "Conflict does not always occur because of misunderstandings. ",
+            "Conflict can always be avoided. ",
+            "Conflict is always bad. ",
+            "Disagreements always signal that the relationship is on the rocks. "
+        ],
+        "answer": [
+            "Conflict does not always occur because of misunderstandings."
+        ]
+    },
+    {
+        "question": "it is Ruben's third year in the organization, He already feels quite stressed out working for more than his usual office hours.  The tasks that are assigned to him are repetitive, and the workload is high with strict deadlines.  However, Ruben's boss has high expectations on him, and Ruben does not want to disappoint his boss.  Ruben expects a promotion the next year, while the same time he has thoughts about quitting right away because of the stress.  What should Ruben do in this situation? ",
+        "options": [
+            "Ruben should sign up for a meditation course. ",
+            "Ruben should enroll for Fit-for-Life program. ",
+            "Ruben should take a one-week vacation to an isolated hill station to assess his physical and mental wellbeing.  Get back with renewed commitments. ",
+            "Ruben should cultivate a hobby like photography, travel, music or reading to relieve the monotony. "
+        ],
+        "answer": [
+            "Ruben should take a one-week vacation to an isolated hill station to assess his physical and mental wellbeing.  Get back with renewed commitments. "
+        ]
+    },
+    {
+        "question": "Which of the following is a way to increase team participation? ",
+        "options": [
+            "Plan the meetings and share meeting agendas with people beforehand. ",
+            "Encourage everyone to talk whenever they have something to say, even if another pe is talking. ",
+            "Point out dominating behavior in the meeting. ",
+            "Ask the leader of the group to run the meeting and talk the most. "
+        ],
+        "answer": [
+            "Plan the meetings and share meeting agendas with people beforehand."
+        ]
+    },
+    {
+        "question": "View _______ as _______ that offer the opportunity to innovate. ",
+        "options": [
+            "Problems/Challenges. ",
+            "Challenges/Solutions. ",
+            "Challenges/Customers. ",
+            "Challenges/Problems. ",
+            "Customers issues/problems. "
+        ],
+        "answer": [
+            "Challenges/Problems."
+        ]
+    },
+    {
+        "question": "Which are some of the aspects that are powered by team equity, one of the principles of problem-solving?  Select all that apply.",
+        "options": [
+            "Profits. ",
+            "Equality. ",
+            "Honour. ",
+            "Motivation. ",
+            "Actions. ",
+            "Power. ",
+            "Authority. "
+        ],
+        "answer": [
+            "Motivation.",
+            "Actions.",
+            "Power.",
+            "Authority."
+        ]
+    },
+    {
+        "question": "To develop your creativity, you should",
+        "options": [
+            "Allow to have pressure to produce immediate results. ",
+            "Be willing to take risks. ",
+            "Stick to the boundaries and go with the flow. ",
+            "Commit yourself to developing your creativity. ",
+            "Stick to your comfort zone and don't take new risks. ",
+            "Reward your curiosity. "
+        ],
+        "answer": [
+            "Be willing to take risks.",
+            "Commit yourself to developing your creativity.",
+            "Reward your curiosity."
+        ]
+    },
+    {
+        "question": "Which answer best describes creative thinking? ",
+        "options": [
+            "Using analysis to solve a problem. ",
+            "None of the options are correct. ",
+            "Using objective thoughts. ",
+            "Looking for new ways to solve the problem. "
+        ],
+        "answer": [
+            "Looking for new ways to solve the problem."
+        ]
+    },
+    {
+        "question": "You are attempting to persuade the project manager to implement a costly revision to your back-office function.  You know that the company is very concerned about costs, so you have formulated two alternate plans one which is less expensive and other one which is less comprehensive.  When the time comes for your presentation, which of the following strategies should you use to obtain the optimal results (the greatest degree of change that the manager will support)? ",
+        "options": [
+            "Describe the mid-range revision first, and then ask the project manager if he/she would like to hear the alternate plans. ",
+            "Describe the most expensive revision first, then the mid-range, and then the least expensive plan. ",
+            "Describe the least expensive revision first. ",
+            "Ask the project manager which plan (least expensive/mid-range/most expensive) if she / he is most interested and then describe that plan only. "
+        ],
+        "answer": [
+            "Describe the most expensive revision first, then the mid-range, and then the least expensive plan."
+        ]
+    },
+    {
+        "question": "Which of the following statement is true in regard to 5Ws? ",
+        "options": [
+            "5Ws are Who, why, When, Where and What not. ",
+            "It is primarily to identify 'Who' has created the problem. ",
+            "It helps in identifying the source of the problem. ",
+            "It is used in the brainstorming session while creatively working on the solution. "
+        ],
+        "answer": [
+            "It helps in identifying the source of the problem."
+        ]
+    },
+    {
+        "question": "The personalities of creative people tend to have all of the following characteristics except one of the following. Identify the exception.",
+        "options": [
+            "Have a low tolerance for ambiguity and must have clear directions on all tasks. ",
+            "None of the options are correct. ",
+            "Frequently considered to be non-conformists and do not need strong approval from the group. ",
+            "Can work along in isolation necessary for developing ideas. "
+        ],
+        "answer": [
+            "Have a low tolerance for ambiguity and must have clear directions on all tasks."
+        ]
+    },
+    {
+        "question": "Richie had a one-to-one discussion where he confided in the supervisor about a personal matter.  He confessed that he is unable to handle his personal problems effectively.  Once Richie left the office, the supervisor disclosed the confidential information with another colleague, and his conversation was overheard by a few employees in the office cubicle.  Will the relationship between Richie and his supervisor be hampered because of this incident? ",
+        "options": [
+            "Richie is not to be faulted as his supervisor was unworthy of his trust. ",
+            "Relation will be hampered, and Richie needs to be blamed for his gullibility. ",
+            "Not only would the relation with the supervisor be hampered, but also Richie will mistrust everyone because of this experience. ",
+            "Richie will never mistrust everyone because of this experience. ",
+            "Richie learns a lesson from this episode and maintains a distance with supervisor. ",
+            "Richie has to put a hold for her work and has to go for a long leave and try to put an end to her personal problems. "
+        ],
+        "answer": [
+            "Not only would the relation with the supervisor be hampered, but also Richie will mistrust everyone because of this experience."
+        ]
+    },
+    {
+        "question": "_______ can cause people in a group to fail to express their true opinions. ",
+        "options": [
+            "Years of experience. ",
+            "Ambiguous responsibility. ",
+            "Group imbalance. ",
+            "Pressure to conform. "
+        ],
+        "answer": [
+            "Pressure to conform."
+        ]
+    },
+    {
+        "question": "Tinoy and you are part of a project and you have been given certain responsibilities to fulfil  Tinoy being a responsible team mate completed his task on time.  He always understands his role as a responsible team member and hence he flagged off his laptop issue (some technical defect) much in advance so that when the project starts, his work can move seamlessly.  You are also a highly responsible person and quite skilled.  Your work is to liaise with one of the team member from the COE team.  However due to poor health condition of the associate from the COE team, your work got stuck.  This impacted the overall project delivery.  You are empathetic towards the associate from the COE team as he stays all alone in Mumbai and hence you decided to be supportive of him.  Choose the correct option from below that fits in to the above situation",
+        "options": [
+            "You might be a responsible individual;  however, you did not display accountability.  You should have looked for aliterate option when you got to know about the health issue of the team member from the COE team.  Your timely action could have helped the project to get completed on time. ",
+            "We all need to make choices many a time.  You chose to prioritize health, relationship over work and there is no harm in it. ",
+            "You should talk to any other team member who is close to you and seek their help  Above situation tells us that you are a responsible person. ",
+            "All The Best. "
+        ],
+        "answer": [
+            "You might be a responsible individual; however, you did not display accountability.  You should have looked for aliterate option when you got to know about the health issue of the team member from the COE team.  Your timely action could have helped the project to get completed on time. "
+        ]
+    }
+]

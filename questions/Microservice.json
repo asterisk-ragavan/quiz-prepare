@@ -1,0 +1,853 @@
+[
+    {
+        "question": "What is the purpose of using Django in a microservices architecture?",
+        "options": [
+            "To create large, monolithic applications",
+            "To build small, decoupled services",
+            "To replace frontend frameworks",
+            "To eliminate the need for APIs"
+        ],
+        "answer": [
+            "To build small, decoupled services"
+        ]
+    },
+    {
+        "question": "Which of the following are advantages of microservices in Django?",
+        "options": [
+            "Scalability",
+            "Tightly coupled components",
+            "Independent deployment",
+            "Increased complexity"
+        ],
+        "answer": [
+            "Scalability",
+            "Independent deployment"
+        ]
+    },
+    {
+        "question": "Which Django library is often used for building RESTful APIs in a microservice?",
+        "options": [
+            "Django Forms",
+            "Django REST Framework",
+            "Django Models",
+            "Django Migrations"
+        ],
+        "answer": [
+            "Django REST Framework"
+        ]
+    },
+    {
+        "question": "Which HTTP method is commonly used in Django microservices to update existing data?",
+        "options": [
+            "GET",
+            "POST",
+            "DELETE",
+            "PUT"
+        ],
+        "answer": [
+            "PUT"
+        ]
+    },
+    {
+        "question": "How can Django microservices communicate with each other?",
+        "options": [
+            "Through a shared database",
+            "Via direct function calls",
+            "Using HTTP or gRPC",
+            "By reading files"
+        ],
+        "answer": [
+            "Using HTTP or gRPC"
+        ]
+    },
+    {
+        "question": "Which of the following are suitable tools for containerizing Django microservices?",
+        "options": [
+            "Docker",
+            "VirtualBox",
+            "Kubernetes",
+            "Apache"
+        ],
+        "answer": [
+            "Docker",
+            "Kubernetes"
+        ]
+    },
+    {
+        "question": "What is the purpose of using Django's CORS (Cross-Origin Resource Sharing) middleware in microservices?",
+        "options": [
+            "To enable access to the admin interface",
+            "To allow cross-domain requests",
+            "To configure database connections",
+            "To optimize query performance"
+        ],
+        "answer": [
+            "To allow cross-domain requests"
+        ]
+    },
+    {
+        "question": "Which tool is commonly used for service discovery in Django microservices?",
+        "options": [
+            "Celery",
+            "Django Channels",
+            "Consul",
+            "Redis"
+        ],
+        "answer": [
+            "Consul"
+        ]
+    },
+    {
+        "question": "Which of the following are benefits of using Django microservices for scaling applications?",
+        "options": [
+            "Enables horizontal scaling",
+            "Reduces inter-service communication",
+            "Isolates individual services for scalability",
+            "Prevents scaling altogether"
+        ],
+        "answer": [
+            "Enables horizontal scaling",
+            "Isolates individual services for scalability"
+        ]
+    },
+    {
+        "question": "Which of the following are best practices when implementing Django microservices?",
+        "options": [
+            "Minimize dependencies between services",
+            "Share databases between services",
+            "Implement API versioning",
+            "Avoid load balancers"
+        ],
+        "answer": [
+            "Minimize dependencies between services",
+            "Implement API versioning"
+        ]
+    },
+    {
+        "question": "Which Django feature allows asynchronous communication for real-time updates in a microservice?",
+        "options": [
+            "Django Channels",
+            "Django Forms",
+            "Django Admin",
+            "Django Middleware"
+        ],
+        "answer": [
+            "Django Channels"
+        ]
+    },
+    {
+        "question": "Which database setup is often recommended for Django microservices to avoid tight coupling?",
+        "options": [
+            "Using a single shared database for all services",
+            "Each service has its own database",
+            "A distributed in-memory database",
+            "A single in-memory database for faster access"
+        ],
+        "answer": [
+            "Each service has its own database"
+        ]
+    },
+    {
+        "question": "What is the primary purpose of Django serializers in a microservices architecture?",
+        "options": [
+            "To render HTML templates",
+            "To validate and transform JSON data",
+            "To manage database connections",
+            "To handle URL routing"
+        ],
+        "answer": [
+            "To validate and transform JSON data"
+        ]
+    },
+    {
+        "question": "Which of the following is a recommended approach to handle authentication across Django microservices?",
+        "options": [
+            "Session-based authentication",
+            "Token-based authentication",
+            "Direct database access",
+            "No authentication"
+        ],
+        "answer": [
+            "Token-based authentication"
+        ]
+    },
+    {
+        "question": "What role does Django Celery play in a microservices architecture?",
+        "options": [
+            "Handles synchronous HTTP requests",
+            "Enables real-time WebSocket communication",
+            "Manages background tasks and job queues",
+            "Acts as a database for each microservice"
+        ],
+        "answer": [
+            "Manages background tasks and job queues"
+        ]
+    },
+    {
+        "question": "Which of the following can be used to monitor and manage microservices created with Django?",
+        "options": [
+            "Prometheus",
+            "Grafana",
+            "Nginx",
+            "SQLAlchemy"
+        ],
+        "answer": [
+            "Prometheus",
+            "Grafana"
+        ]
+    },
+    {
+        "question": "What is the purpose of using an API Gateway with Django microservices?",
+        "options": [
+            "To handle database queries",
+            "To consolidate and route API requests",
+            "To replace frontend frameworks",
+            "To simplify deployment"
+        ],
+        "answer": [
+            "To consolidate and route API requests"
+        ]
+    },
+    {
+        "question": "Which of the following HTTP status codes indicate successful communication in Django microservices?",
+        "options": [
+            "200",
+            "201",
+            "404",
+            "500"
+        ],
+        "answer": [
+            "200",
+            "201"
+        ]
+    },
+    {
+        "question": "What is the main benefit of using API versioning in Django microservices?",
+        "options": [
+            "To optimize database performance",
+            "To enable backwards compatibility",
+            "To handle multiple languages",
+            "To simplify front-end development"
+        ],
+        "answer": [
+            "To enable backwards compatibility"
+        ]
+    },
+    {
+        "question": "Which of the following are common testing approaches for Django microservices?",
+        "options": [
+            "Unit tests",
+            "Integration tests",
+            "Load tests",
+            "No tests required"
+        ],
+        "answer": [
+            "Unit tests",
+            "Integration tests",
+            "Load tests"
+        ]
+    },
+    {
+        "question": "In Django microservices, which of the following is a suitable tool for message-based communication between services?",
+        "options": [
+            "RabbitMQ",
+            "Django Admin",
+            "Celery",
+            "Kafka"
+        ],
+        "answer": [
+            "RabbitMQ",
+            "Kafka"
+        ]
+    },
+    {
+        "question": "Which Django setting is commonly adjusted for handling cross-origin requests in microservices?",
+        "options": [
+            "ALLOWED_HOSTS",
+            "CORS_ALLOWED_ORIGINS",
+            "DATABASES",
+            "TEMPLATES"
+        ],
+        "answer": [
+            "CORS_ALLOWED_ORIGINS"
+        ]
+    },
+    {
+        "question": "What is the purpose of using Redis in a Django microservices architecture?",
+        "options": [
+            "Database management",
+            "Session management and caching",
+            "Rendering HTML templates",
+            "Handling migrations"
+        ],
+        "answer": [
+            "Session management and caching"
+        ]
+    },
+    {
+        "question": "Which of the following are common challenges when implementing Django microservices?",
+        "options": [
+            "Increased network latency",
+            "Complex service orchestration",
+            "Easier debugging",
+            "Simplified data consistency"
+        ],
+        "answer": [
+            "Increased network latency",
+            "Complex service orchestration"
+        ]
+    },
+    {
+        "question": "What does API throttling achieve in Django microservices?",
+        "options": [
+            "It limits the rate of requests to prevent abuse",
+            "It enhances database performance",
+            "It caches all incoming requests",
+            "It simplifies backend development"
+        ],
+        "answer": [
+            "It limits the rate of requests to prevent abuse"
+        ]
+    },
+    {
+        "question": "Which Django feature is essential for defining resource-based permissions in a microservice?",
+        "options": [
+            "Django Middleware",
+            "Django ORM",
+            "Django Permissions",
+            "Django Templates"
+        ],
+        "answer": [
+            "Django Permissions"
+        ]
+    },
+    {
+        "question": "What role does Kubernetes play in managing Django microservices?",
+        "options": [
+            "Database management",
+            "Automated container orchestration",
+            "Frontend rendering",
+            "Data analysis"
+        ],
+        "answer": [
+            "Automated container orchestration"
+        ]
+    },
+    {
+        "question": "Which of the following tools can be used for logging and monitoring in a Django microservices environment?",
+        "options": [
+            "ELK Stack (Elasticsearch, Logstash, and Kibana)",
+            "Celery",
+            "Django Admin",
+            "Prometheus"
+        ],
+        "answer": [
+            "ELK Stack (Elasticsearch, Logstash, and Kibana)",
+            "Prometheus"
+        ]
+    },
+    {
+        "question": "Which design pattern is commonly used in Django microservices to handle failures in inter-service communication?",
+        "options": [
+            "Observer pattern",
+            "Circuit breaker pattern",
+            "Singleton pattern",
+            "Factory pattern"
+        ],
+        "answer": [
+            "Circuit breaker pattern"
+        ]
+    },
+    {
+        "question": "What is the purpose of using Django migrations in a microservices architecture?",
+        "options": [
+            "To enable version control",
+            "To manage database schema changes",
+            "To deploy containers",
+            "To monitor API performance"
+        ],
+        "answer": [
+            "To manage database schema changes"
+        ]
+    },
+    {
+        "question": "Which of the following is an advantage of using gRPC over HTTP in Django microservices?",
+        "options": [
+            "Better human readability",
+            "Higher performance with smaller payloads",
+            "No need for schemas",
+            "Easier integration with Django templates"
+        ],
+        "answer": [
+            "Higher performance with smaller payloads"
+        ]
+    },
+    {
+        "question": "What is the role of Django's 'Middleware' in a microservices architecture?",
+        "options": [
+            "To manage database transactions",
+            "To intercept and process requests and responses",
+            "To handle message queuing",
+            "To manage user authentication tokens"
+        ],
+        "answer": [
+            "To intercept and process requests and responses"
+        ]
+    },
+    {
+        "question": "Which of the following options allows Django microservices to securely manage secrets and environment variables?",
+        "options": [
+            "Using a settings file",
+            "Hardcoding credentials",
+            "Using a secret manager like AWS Secrets Manager or HashiCorp Vault",
+            "Storing in the database"
+        ],
+        "answer": [
+            "Using a secret manager like AWS Secrets Manager or HashiCorp Vault"
+        ]
+    },
+    {
+        "question": "Which library in Django microservices is commonly used for task scheduling and asynchronous processing?",
+        "options": [
+            "Django Admin",
+            "Django Models",
+            "Celery",
+            "Django ORM"
+        ],
+        "answer": [
+            "Celery"
+        ]
+    },
+    {
+        "question": "Which technique is recommended for handling dependency management in Django microservices?",
+        "options": [
+            "Using a single requirements.txt file for all services",
+            "Creating isolated virtual environments per service",
+            "Installing dependencies globally",
+            "Only using Django’s built-in dependencies"
+        ],
+        "answer": [
+            "Creating isolated virtual environments per service"
+        ]
+    },
+    {
+        "question": "How does Django REST Framework (DRF) support pagination in microservices?",
+        "options": [
+            "By caching data",
+            "Using built-in pagination classes",
+            "Through template rendering",
+            "By accessing the Django ORM directly"
+        ],
+        "answer": [
+            "Using built-in pagination classes"
+        ]
+    },
+    {
+        "question": "Which of the following is a good practice when handling errors in Django microservices?",
+        "options": [
+            "Returning minimal error information for security",
+            "Exposing all details in the error message",
+            "Not logging errors",
+            "Using the database to store error logs only"
+        ],
+        "answer": [
+            "Returning minimal error information for security"
+        ]
+    },
+    {
+        "question": "What is the role of Docker Compose when working with Django microservices?",
+        "options": [
+            "To deploy directly to production",
+            "To define and run multi-container Docker applications",
+            "To manage Django migrations",
+            "To simplify URL routing"
+        ],
+        "answer": [
+            "To define and run multi-container Docker applications"
+        ]
+    },
+    {
+        "question": "How does Django handle database migrations across microservices?",
+        "options": [
+            "Each service runs its own migrations",
+            "All migrations are centralized in one service",
+            "Only a single service needs migrations",
+            "Django does not support migrations in microservices"
+        ],
+        "answer": [
+            "Each service runs its own migrations"
+        ]
+    },
+    {
+        "question": "Which of the following helps in managing multiple microservices in a local development environment?",
+        "options": [
+            "Django Admin",
+            "Docker Compose",
+            "Database replication",
+            "Django ORM"
+        ],
+        "answer": [
+            "Docker Compose"
+        ]
+    },
+    {
+        "question": "Which Django REST Framework feature allows microservices to define custom behavior for endpoints?",
+        "options": [
+            "Serializers",
+            "Viewsets",
+            "ORM",
+            "Static files"
+        ],
+        "answer": [
+            "Viewsets"
+        ]
+    },
+    {
+        "question": "What is the main purpose of using Django's 'signals' in a microservices setup?",
+        "options": [
+            "To automate database migrations",
+            "To trigger actions in response to specific events",
+            "To control load balancing",
+            "To define API endpoints"
+        ],
+        "answer": [
+            "To trigger actions in response to specific events"
+        ]
+    },
+    {
+        "question": "Which of the following is a benefit of deploying Django microservices with continuous integration/continuous deployment (CI/CD)?",
+        "options": [
+            "Manual deployments only",
+            "Automated testing and deployment of updates",
+            "Reduced logging capabilities",
+            "Hard-coded configurations"
+        ],
+        "answer": [
+            "Automated testing and deployment of updates"
+        ]
+    },
+    {
+        "question": "In a Django microservices architecture, how can database migrations be managed to prevent conflicts?",
+        "options": [
+            "Using a single shared migration file for all services",
+            "Creating separate databases for each service",
+            "Only one service should perform migrations",
+            "Ignoring migrations in the microservices environment"
+        ],
+        "answer": [
+            "Creating separate databases for each service"
+        ]
+    },
+    {
+        "question": "What is a common use of Django's 'drf-yasg' package in microservices?",
+        "options": [
+            "Managing migrations",
+            "Serving static files",
+            "Automatically generating Swagger/OpenAPI documentation",
+            "Defining database models"
+        ],
+        "answer": [
+            "Automatically generating Swagger/OpenAPI documentation"
+        ]
+    },
+    {
+        "question": "Which tool is commonly used to orchestrate and manage containers in a production-ready Django microservices setup?",
+        "options": [
+            "Kubernetes",
+            "Virtualenv",
+            "SQLite",
+            "Django Admin"
+        ],
+        "answer": [
+            "Kubernetes"
+        ]
+    },
+    {
+        "question": "Which HTTP status code is returned when a Django microservice successfully creates a new resource?",
+        "options": [
+            "200",
+            "201",
+            "400",
+            "403"
+        ],
+        "answer": [
+            "201"
+        ]
+    },
+    {
+        "question": "What is a major drawback of tightly coupling Django microservices?",
+        "options": [
+            "Increased scalability",
+            "Decreased deployment complexity",
+            "Reduced independence between services",
+            "Improved service isolation"
+        ],
+        "answer": [
+            "Reduced independence between services"
+        ]
+    },
+    {
+        "question": "Which of the following Django REST Framework tools is helpful for applying filtering and searching in APIs?",
+        "options": [
+            "ModelViewSet",
+            "DRF Filters",
+            "Static Files",
+            "Database Migrations"
+        ],
+        "answer": [
+            "DRF Filters"
+        ]
+    },
+    {
+        "question": "What is the purpose of JWT (JSON Web Tokens) in Django microservices?",
+        "options": [
+            "To serialize JSON data",
+            "To create REST API endpoints",
+            "To securely transmit information between services",
+            "To format data for templates"
+        ],
+        "answer": [
+            "To securely transmit information between services"
+        ]
+    },
+    {
+        "question": "Which of the following can be used to manage distributed transactions in Django microservices?",
+        "options": [
+            "Celery",
+            "Saga pattern",
+            "Django ORM",
+            "Signals"
+        ],
+        "answer": [
+            "Saga pattern"
+        ]
+    },
+    {
+        "question": "What is the role of an 'API Gateway' in a Django microservices architecture?",
+        "options": [
+            "To manage internal service-to-service communication",
+            "To combine multiple service endpoints into a single entry point",
+            "To handle database migrations",
+            "To handle backend processing logic"
+        ],
+        "answer": [
+            "To combine multiple service endpoints into a single entry point"
+        ]
+    },
+    {
+        "question": "Which of the following strategies is commonly used to ensure fault tolerance in Django microservices?",
+        "options": [
+            "Distributed transactions",
+            "Graceful service degradation",
+            "Single monolithic database",
+            "Single-threaded processing"
+        ],
+        "answer": [
+            "Graceful service degradation"
+        ]
+    },
+    {
+        "question": "What is a common solution for ensuring data consistency across different microservices in Django?",
+        "options": [
+            "Event sourcing",
+            "Database transactions in a single service",
+            "Using multiple shared databases",
+            "Multiple migrations"
+        ],
+        "answer": [
+            "Event sourcing"
+        ]
+    },
+    {
+        "question": "Which Django feature is most commonly used to handle background tasks in a microservices architecture?",
+        "options": [
+            "Django ORM",
+            "Celery",
+            "Django Admin",
+            "Django REST Framework"
+        ],
+        "answer": [
+            "Celery"
+        ]
+    },
+    {
+        "question": "Which approach is commonly used to manage service-to-service communication in Django microservices?",
+        "options": [
+            "Direct database access between services",
+            "RESTful APIs or gRPC",
+            "Shared models",
+            "Using Django signals"
+        ],
+        "answer": [
+            "RESTful APIs or gRPC"
+        ]
+    },
+    {
+        "question": "Which of the following is a key principle behind the microservices architecture in Django?",
+        "options": [
+            "All services share a single codebase",
+            "Each service is independently deployable",
+            "Each service relies on a single shared database",
+            "Microservices should only handle frontend tasks"
+        ],
+        "answer": [
+            "Each service is independently deployable"
+        ]
+    },
+    {
+        "question": "Which of the following Django features is used for managing user authentication in a microservice-based environment?",
+        "options": [
+            "Django Permissions",
+            "Django Auth",
+            "Django Channels",
+            "Django Middleware"
+        ],
+        "answer": [
+            "Django Auth"
+        ]
+    },
+    {
+        "question": "Which of the following tools is often used for API rate limiting in Django microservices?",
+        "options": [
+            "Redis",
+            "RabbitMQ",
+            "Django Caching",
+            "Django REST Framework Throttling"
+        ],
+        "answer": [
+            "Django REST Framework Throttling"
+        ]
+    },
+    {
+        "question": "What is a significant benefit of using a service mesh like Istio with Django microservices?",
+        "options": [
+            "Simplifies URL routing",
+            "Provides observability and traffic management between services",
+            "Manages database migrations",
+            "Reduces the need for containers"
+        ],
+        "answer": [
+            "Provides observability and traffic management between services"
+        ]
+    },
+    {
+        "question": "Which of the following tools can be used to automatically scale Django microservices in a cloud environment?",
+        "options": [
+            "Docker",
+            "Kubernetes",
+            "Nginx",
+            "Django Channels"
+        ],
+        "answer": [
+            "Kubernetes"
+        ]
+    },
+    {
+        "question": "Which of the following is a common strategy for managing different versions of APIs in a Django microservices architecture?",
+        "options": [
+            "API versioning through URL paths",
+            "Using a single API for all versions",
+            "No versioning required",
+            "Only using Postman for testing APIs"
+        ],
+        "answer": [
+            "API versioning through URL paths"
+        ]
+    },
+    {
+        "question": "What is the primary role of the 'Service Discovery' mechanism in a Django microservices setup?",
+        "options": [
+            "To automate database migrations",
+            "To allow services to find and communicate with each other",
+            "To optimize API responses",
+            "To manage user authentication"
+        ],
+        "answer": [
+            "To allow services to find and communicate with each other"
+        ]
+    },
+    {
+        "question": "What is a key benefit of using a message broker like RabbitMQ in a Django microservices architecture?",
+        "options": [
+            "To reduce database queries",
+            "To handle asynchronous communication between services",
+            "To store API response data",
+            "To perform service authentication"
+        ],
+        "answer": [
+            "To handle asynchronous communication between services"
+        ]
+    },
+    {
+        "question": "Which of the following is a best practice for managing secrets and credentials in Django microservices?",
+        "options": [
+            "Storing secrets in version control",
+            "Using environment variables or secret management tools",
+            "Hardcoding secrets in the codebase",
+            "Passing secrets as HTTP headers"
+        ],
+        "answer": [
+            "Using environment variables or secret management tools"
+        ]
+    },
+    {
+        "question": "Which of the following HTTP methods is commonly used to update an existing resource in a Django microservice API?",
+        "options": [
+            "POST",
+            "PUT",
+            "DELETE",
+            "GET"
+        ],
+        "answer": [
+            "PUT"
+        ]
+    },
+    {
+        "question": "How can Django microservices communicate with each other to share data without exposing a database?",
+        "options": [
+            "Using direct SQL queries",
+            "Through RESTful APIs or gRPC",
+            "Using a shared session store",
+            "By sharing a common codebase"
+        ],
+        "answer": [
+            "Through RESTful APIs or gRPC"
+        ]
+    },
+    {
+        "question": "Which of the following is the main function of the 'Dockerfile' in a Django microservices setup?",
+        "options": [
+            "To define the database schema",
+            "To configure the web server",
+            "To define the environment for the container",
+            "To manage the user authentication"
+        ],
+        "answer": [
+            "To define the environment for the container"
+        ]
+    },
+    {
+        "question": "What is the purpose of using 'CORS' (Cross-Origin Resource Sharing) in a Django microservices environment?",
+        "options": [
+            "To prevent cross-site scripting attacks",
+            "To allow or block requests from different origins",
+            "To enable automatic migrations",
+            "To improve database query performance"
+        ],
+        "answer": [
+            "To allow or block requests from different origins"
+        ]
+    },
+    {
+        "question": "Which of the following is a key principle of 'Microservice Architecture' when applied to Django applications?",
+        "options": [
+            "Single database for all services",
+            "Each service is independently deployable and scalable",
+            "Shared codebase for all services",
+            "Monolithic design with multiple views"
+        ],
+        "answer": [
+            "Each service is independently deployable and scalable"
+        ]
+    }
+]
