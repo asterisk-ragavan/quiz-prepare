@@ -14,6 +14,8 @@ def initialize_session(questions):
     session['score'] = 0
     session['wrong_attempts'] = 0
     session['current_question'] = 0
+    session['is_correct'] = {}
+    session['user_answers'] = {}
     session['questions'] = random.sample(questions, len(questions))
     session['attempts'] = {}
     
@@ -40,8 +42,11 @@ def load_questions():
 
 @app.route('/quiz', methods=['GET'])
 def quiz():
-    if 'current_question' not in session or session['current_question'] >= len(session['questions']):
+    if 'current_question' not in session:
         return redirect(url_for('index'))
+    
+    if session['current_question'] >= len(session['questions']):
+        return redirect(url_for('result'))
     
     current_question = session['questions'][session['current_question']]
     random.shuffle(current_question['options'])
@@ -62,10 +67,15 @@ def check_answer():
     if set(selected_options) == set(correct_answer):
         if question_index not in session['attempts']:  # First correct attempt
             session['score'] += 1
+            session['user_answers'][question_index] = selected_options
             session['attempts'][question_index] = True
+            session['is_correct'][question_index] = True
         return jsonify({'result': 'correct', 'score': session['score']})
     else:
         session['wrong_attempts'] += 1
+        session['attempts'][question_index] = True
+        session['is_correct'][question_index] = False
+        session['user_answers'][question_index] = selected_options
         return jsonify({'result': 'incorrect', 'score': session['score']})
 
 @app.route('/next', methods=['POST'])
@@ -79,10 +89,24 @@ def previous_question():
         session['current_question'] -= 1
     return jsonify({'status': 'previous'})
 
-@app.route('/reset', methods=['POST'])
-def reset():
-    initialize_session()
-    return jsonify({'status': 'reset'})
+@app.route('/get_answer', methods=['GET'])
+def get_answer():
+    question_index = session['current_question']
+    current_question = session['questions'][question_index]
+    correct_answer = current_question['answer']
+    return jsonify(correct_answers=correct_answer)
 
+@app.route('/result')
+def result():
+    # Render result page with the session data needed for displaying results
+    return render_template(
+        'result.html',
+        score=session['score'],
+        total_questions=len(session['questions']),
+        wrong_attempts=session['wrong_attempts'],
+        user_answers=session['user_answers'],
+        is_correct=session['is_correct']
+    )
+    
 if __name__ == '__main__':
-    app.run(debug=False)
+    app.run(debug=True)

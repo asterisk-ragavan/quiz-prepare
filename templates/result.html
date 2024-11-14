@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Results</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <style>
+        
+    </style>
+</head>
+<body>
+
+<div class="container my-5">
+    <!-- Score Summary Card -->
+    <div class="card text-center mb-4">
+        <div class="card-body">
+            <h4 class="card-title">Quiz Results</h4>
+            <table class="table">
+                <tr>
+                    <th>Total Questions</th>
+                    <td>{{ total_questions }}</td>
+                </tr>
+                <tr>
+                    <th>Correct Answers</th>
+                    <td>{{ score }}</td>
+                </tr>
+                <tr>
+                    <th>Wrong Attempts</th>
+                    <td>{{ wrong_attempts }}</td>
+                </tr>
+                <tr>
+                    <th>Final Score</th>
+                    <td>{{ score }}/{{ total_questions }}</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <!-- Action Buttons -->
+    <div class="d-flex justify-content-center mb-4">
+        <button id="btn-view-all" class="btn btn-primary mx-2">View All</button>
+        <button id="btn-correct" class="btn btn-success mx-2">Correct</button>
+        <button id="btn-wrong" class="btn btn-danger mx-2">Wrong</button>
+        <button onclick="window.location.href='{{ url_for('index') }}'" class="btn btn-secondary mx-2">Reset</button>
+    </div>
+
+    <!-- Question List -->
+    <div id="question-list">
+        <!-- Questions will be loaded here dynamically -->
+    </div>
+</div>
+
+<script>
+    // Function to dynamically create question cards
+    const questions = {{ session['questions']|tojson }};
+    const userAnswers = {{ session['user_answers']|tojson }};
+    const attempts = {{ session['attempts']|tojson }};
+    
+    function loadQuestions(filter = 'all') {
+        const questionList = document.getElementById('question-list');
+        questionList.innerHTML = '';  // Clear existing questions
+        
+        questions.forEach((question, index) => {
+            const isCorrect = {{ session['is_correct']|tojson }}[index];
+            const userSelectedOptions = userAnswers[index] || [];
+            
+            // Filter conditions
+            if ((filter === 'correct' && !isCorrect) || (filter === 'wrong' && isCorrect)) {
+                return;
+            }
+
+            // Create card for each question
+            const card = document.createElement('div');
+            card.className = `card question-card ${isCorrect ? 'correct-card' : 'wrong-card'}`;
+            
+            // Question content
+            card.innerHTML = `
+                <div class="card-body">
+                    <h5 class="card-title">${index + 1}. ${question.question}</h5>
+                    <ul class="list-unstyled">
+                        ${question.options.map(option => `
+                            <li class="option ${userSelectedOptions.includes(option) ? 'selected-option' : ''} ${question.answer.includes(option) ? 'correct-option' : 'wrong-option'}">
+                                ${option}
+                            </li>
+                        `).join('')}
+                    </ul>
+                </div>
+            `;
+
+            questionList.appendChild(card);
+        });
+    }
+
+    // Button event listeners to load different sets of questions
+    document.getElementById('btn-view-all').addEventListener('click', () => loadQuestions('all'));
+    document.getElementById('btn-correct').addEventListener('click', () => loadQuestions('correct'));
+    document.getElementById('btn-wrong').addEventListener('click', () => loadQuestions('wrong'));
+
+    // Initial load of all questions
+    loadQuestions();
+</script>
+
+</body>
+</html>

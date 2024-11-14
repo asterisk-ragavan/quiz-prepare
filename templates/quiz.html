@@ -16,6 +16,7 @@
         <div class="card" id="quizCard">
             <div class="card-body">
                 <h5 class="card-title">{{ question.question }}</h5>
+                {% if question.answer | length > 1 %}(multiple select){% endif %}
                 <form id="quizForm">
                     {% for option in question.options %}
                         <div class="form-check">
@@ -33,17 +34,50 @@
                 <button type="button" class="btn btn-primary mt-3" id="submitAnswer">Submit</button>
                 <button type="button" class="btn btn-secondary mt-3" id="previousButton">Previous</button>
                 <button type="button" class="btn btn-info mt-3" id="nextButton" >Next</button>
+                <button type="button" class="btn btn-light mt-3" id="viewAnswerButton">View Answer</button>
                 <div id="feedback" class="mt-3"></div>
                 <div class="mt-3">
                     <span>Correct: {{ score }}</span> | <span>Wrong Attempts: {{ wrong_attempts }}</span>
                     <p>Question {{ question_index + 1 }} of {{ total_questions }}</p>
                 </div>
+                <div id="correctAnswers" class="mt-3" style="display: none;"></div>
+                <button type="button" class="btn btn-warning mt-3" id="viewExplanationButton" style="display: none;">Explain</button>
             </div>
         </div>
     </div>
 
     <script>
         let questionTimeout;
+
+        $('#viewExplanationButton').click(function() {
+            // Get the question text and options
+            const questionText = "{{ question.question }}";
+            const options = {{ question.options | tojson }};
+            
+            // Label options as a., b., c., etc., and construct the search query
+            let searchQuery = questionText + " ";
+            const optionLabels = ['A', 'B', 'C', 'D', 'E', 'F', 'G']; // Extend if needed for more options
+            options.forEach((option, index) => {
+                searchQuery += optionLabels[index] + ". " + option + " ";
+            });
+        
+            // Encode the query for a URL and open Google search in a new tab
+            const googleSearchUrl = "https://www.google.com/search?q=" + encodeURIComponent(searchQuery);
+            window.open(googleSearchUrl, '_blank');
+        });     
+
+        $('#viewAnswerButton').click(function() {
+            $.ajax({
+                url: '/get_answer',
+                type: 'GET',
+                success: function(data) {
+                    // Display the correct answers
+                    $('#correctAnswers').html('Correct Answer: ' + data.correct_answers.join('<br> '));
+                    $('#correctAnswers').css('color', 'blue').show();
+                    $('#viewExplanationButton').show();
+                }
+            });
+        });
 
         $('#submitAnswer').click(function() {
             let selectedOptions = [];

@@ -18,3 +18,35 @@ body {
     margin: 10px;
     padding: 20px;
 }
+
+.correct-card {
+    background-color: #d4edda; /* Light green for correct answers */
+}
+.wrong-card {
+    background-color: #f8d7da; /* Light red for wrong answers */
+}
+.question-card {
+    margin-bottom: 1rem;
+}
+
+.option {
+    padding: 0.2rem;
+    margin: 0.15rem;
+    border-radius: 5px;
+}
+
+.wrong-option {
+    background-color: #dc3545;
+    color: white;
+    opacity: 0.7;
+}
+
+.selected-option {
+    background-color: #007bff;
+    opacity: 0.7;
+}
+
+.correct-option {
+    background-color: #28a745;
+    color: white;
+}
